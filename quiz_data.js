@@ -1,4 +1,4 @@
-// NPTEL Deep Learning for Computer Vision - Quiz Data (All 15 Blocks, 143 Pages)
+// NPTEL Deep Learning for Computer Vision - Quiz Data (All 15 Blocks, Continuous Stream Parsing)
 window.QUIZ_DATA = [
   {
     "id": "block_01",
@@ -7,7 +7,6 @@ window.QUIZ_DATA = [
     "subtitle": "CNN Fundamentals, Convolutions, Kernels & Activations",
     "pageRange": "Pages 1 - 10",
     "badge": "Weeks 1-2 Focus",
-    "icon": "bi-cpu",
     "totalQuestions": 45,
     "questions": [
       {
@@ -21,9 +20,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) They reduce the number of parameters through weight sharing",
-        "explanation": "Official NPTEL accepted answer: b) They reduce the number of parameters through weight sharing. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) They reduce the number of parameters through weight sharing. (Reference: Page 2 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 2",
         "blockId": "block_01"
       },
       {
@@ -37,9 +36,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) Extract local spatial features",
-        "explanation": "Official NPTEL accepted answer: b) Extract local spatial features. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) Extract local spatial features. (Reference: Page 2 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 2",
         "blockId": "block_01"
       },
       {
@@ -53,9 +52,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) A feature detector",
-        "explanation": "Official NPTEL accepted answer: b) A feature detector. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) A feature detector. (Reference: Page 2 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 2",
         "blockId": "block_01"
       },
       {
@@ -69,9 +68,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) Pooling layer DUCATton",
-        "explanation": "Official NPTEL accepted answer: b) Pooling layer DUCATton. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) Pooling layer DUCATton. (Reference: Page 2 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 2",
         "blockId": "block_01"
       },
       {
@@ -85,9 +84,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Introduces non-linearity and reduces vanishing gradient",
-        "explanation": "Official NPTEL accepted answer: a) Introduces non-linearity and reduces vanishing gradient. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Introduces non-linearity and reduces vanishing gradient. (Reference: Page 2 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 2",
         "blockId": "block_01"
       },
       {
@@ -101,9 +100,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) Concatenation",
-        "explanation": "Official NPTEL accepted answer: b) Concatenation. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) Concatenation. (Reference: Page 3 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 3",
         "blockId": "block_01"
       },
       {
@@ -117,9 +116,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) The step size of the filter movement",
-        "explanation": "Official NPTEL accepted answer: b) The step size of the filter movement. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) The step size of the filter movement. (Reference: Page 3 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 3",
         "blockId": "block_01"
       },
       {
@@ -133,9 +132,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) Reduce computational load and control overfitting",
-        "explanation": "Official NPTEL accepted answer: b) Reduce computational load and control overfitting. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) Reduce computational load and control overfitting. (Reference: Page 3 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 3",
         "blockId": "block_01"
       },
       {
@@ -149,9 +148,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) Max pooling",
-        "explanation": "Official NPTEL accepted answer: b) Max pooling. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) Max pooling. (Reference: Page 3 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 3",
         "blockId": "block_01"
       },
       {
@@ -165,9 +164,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) The region of input image influencing one output neuron",
-        "explanation": "Official NPTEL accepted answer: b) The region of input image influencing one output neuron. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) The region of input image influencing one output neuron. (Reference: Page 3 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 3",
         "blockId": "block_01"
       },
       {
@@ -181,9 +180,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) AlexNet",
-        "explanation": "Official NPTEL accepted answer: a) AlexNet. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) AlexNet. (Reference: Page 4 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 4",
         "blockId": "block_01"
       },
       {
@@ -197,9 +196,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) AlexNet",
-        "explanation": "Official NPTEL accepted answer: b) AlexNet. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) AlexNet. (Reference: Page 4 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 4",
         "blockId": "block_01"
       },
       {
@@ -213,9 +212,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) Small 3x3 convolution filters",
-        "explanation": "Official NPTEL accepted answer: b) Small 3x3 convolution filters. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) Small 3x3 convolution filters. (Reference: Page 4 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 4",
         "blockId": "block_01"
       },
       {
@@ -229,9 +228,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) Vanishing gradients using skip connections",
-        "explanation": "Official NPTEL accepted answer: b) Vanishing gradients using skip connections. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) Vanishing gradients using skip connections. (Reference: Page 4 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 4",
         "blockId": "block_01"
       },
       {
@@ -245,9 +244,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) Allowing gradient flow through identity mappings",
-        "explanation": "Official NPTEL accepted answer: b) Allowing gradient flow through identity mappings. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) Allowing gradient flow through identity mappings. (Reference: Page 4 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 4",
         "blockId": "block_01"
       },
       {
@@ -261,9 +260,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Use filters of multiple sizes to capture varied features",
-        "explanation": "Official NPTEL accepted answer: a) Use filters of multiple sizes to capture varied features. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Use filters of multiple sizes to capture varied features. (Reference: Page 5 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 5",
         "blockId": "block_01"
       },
       {
@@ -277,9 +276,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Fully connected layer",
-        "explanation": "Official NPTEL accepted answer: a) Fully connected layer. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Fully connected layer. (Reference: Page 5 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 5",
         "blockId": "block_01"
       },
       {
@@ -293,9 +292,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) Normalizing layer inputs to stabilize training",
-        "explanation": "Official NPTEL accepted answer: b) Normalizing layer inputs to stabilize training. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) Normalizing layer inputs to stabilize training. (Reference: Page 5 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 5",
         "blockId": "block_01"
       },
       {
@@ -309,9 +308,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) Preventing overfitting by randomly disabling neurons",
-        "explanation": "Official NPTEL accepted answer: b) Preventing overfitting by randomly disabling neurons. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) Preventing overfitting by randomly disabling neurons. (Reference: Page 5 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 5",
         "blockId": "block_01"
       },
       {
@@ -325,9 +324,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) The target dataset is small but related to the source task",
-        "explanation": "Official NPTEL accepted answer: b) The target dataset is small but related to the source task. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) The target dataset is small but related to the source task. (Reference: Page 5 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 5",
         "blockId": "block_01"
       },
       {
@@ -341,9 +340,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) ImageNet",
-        "explanation": "Official NPTEL accepted answer: b) ImageNet. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) ImageNet. (Reference: Page 6 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 6",
         "blockId": "block_01"
       },
       {
@@ -357,9 +356,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) Freezing initial layers and retraining deeper layers",
-        "explanation": "Official NPTEL accepted answer: b) Freezing initial layers and retraining deeper layers. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) Freezing initial layers and retraining deeper layers. (Reference: Page 6 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 6",
         "blockId": "block_01"
       },
       {
@@ -373,9 +372,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) Identifies object location and category",
-        "explanation": "Official NPTEL accepted answer: b) Identifies object location and category. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) Identifies object location and category. (Reference: Page 6 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 6",
         "blockId": "block_01"
       },
       {
@@ -389,9 +388,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) You Only Look Once",
-        "explanation": "Official NPTEL accepted answer: a) You Only Look Once. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) You Only Look Once. (Reference: Page 6 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 6",
         "blockId": "block_01"
       },
       {
@@ -405,9 +404,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) Real-time object detection",
-        "explanation": "Official NPTEL accepted answer: b) Real-time object detection. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) Real-time object detection. (Reference: Page 6 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 6",
         "blockId": "block_01"
       },
       {
@@ -421,9 +420,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) Generating region proposals and classifying them",
-        "explanation": "Official NPTEL accepted answer: b) Generating region proposals and classifying them. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) Generating region proposals and classifying them. (Reference: Page 7 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 7",
         "blockId": "block_01"
       },
       {
@@ -437,9 +436,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Region Proposal Network (RPN)",
-        "explanation": "Official NPTEL accepted answer: a) Region Proposal Network (RPN). (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Region Proposal Network (RPN). (Reference: Page 7 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 7",
         "blockId": "block_01"
       },
       {
@@ -453,9 +452,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Reduce false positives by removing overlapping boxes",
-        "explanation": "Official NPTEL accepted answer: a) Reduce false positives by removing overlapping boxes. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Reduce false positives by removing overlapping boxes. (Reference: Page 7 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 7",
         "blockId": "block_01"
       },
       {
@@ -469,9 +468,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) It labels each pixel according to class without distinguishing instances",
-        "explanation": "Official NPTEL accepted answer: b) It labels each pixel according to class without distinguishing instances. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) It labels each pixel according to class without distinguishing instances. (Reference: Page 7 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 7",
         "blockId": "block_01"
       },
       {
@@ -485,9 +484,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) Biomedical image segmentation",
-        "explanation": "Official NPTEL accepted answer: b) Biomedical image segmentation. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) Biomedical image segmentation. (Reference: Page 7 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 7",
         "blockId": "block_01"
       },
       {
@@ -501,9 +500,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Segmentation tasks",
-        "explanation": "Official NPTEL accepted answer: a) Segmentation tasks. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Segmentation tasks. (Reference: Page 8 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 8",
         "blockId": "block_01"
       },
       {
@@ -517,9 +516,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Generative Adversarial Network",
-        "explanation": "Official NPTEL accepted answer: a) Generative Adversarial Network. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Generative Adversarial Network. (Reference: Page 8 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 8",
         "blockId": "block_01"
       },
       {
@@ -533,9 +532,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Generator and Discriminator",
-        "explanation": "Official NPTEL accepted answer: a) Generator and Discriminator. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Generator and Discriminator. (Reference: Page 8 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 8",
         "blockId": "block_01"
       },
       {
@@ -549,9 +548,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) Generate data indistinguishable from real samples",
-        "explanation": "Official NPTEL accepted answer: b) Generate data indistinguishable from real samples. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) Generate data indistinguishable from real samples. (Reference: Page 8 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 8",
         "blockId": "block_01"
       },
       {
@@ -565,9 +564,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) Distinguish real data from fake data",
-        "explanation": "Official NPTEL accepted answer: b) Distinguish real data from fake data. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) Distinguish real data from fake data. (Reference: Page 8 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 8",
         "blockId": "block_01"
       },
       {
@@ -581,9 +580,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) The generator produces limited or identical outputs",
-        "explanation": "Official NPTEL accepted answer: b) The generator produces limited or identical outputs. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) The generator produces limited or identical outputs. (Reference: Page 9 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 9",
         "blockId": "block_01"
       },
       {
@@ -597,9 +596,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) Label smoothing and batch normalization",
-        "explanation": "Official NPTEL accepted answer: b) Label smoothing and batch normalization. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) Label smoothing and batch normalization. (Reference: Page 9 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 9",
         "blockId": "block_01"
       },
       {
@@ -613,9 +612,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) Introduce probabilistic latent space mon",
-        "explanation": "Official NPTEL accepted answer: b) Introduce probabilistic latent space mon. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) Introduce probabilistic latent space mon. (Reference: Page 9 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 9",
         "blockId": "block_01"
       },
       {
@@ -629,9 +628,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Compressed feature representation of the input",
-        "explanation": "Official NPTEL accepted answer: a) Compressed feature representation of the input. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Compressed feature representation of the input. (Reference: Page 9 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 9",
         "blockId": "block_01"
       },
       {
@@ -645,9 +644,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Data compression and denoising",
-        "explanation": "Official NPTEL accepted answer: a) Data compression and denoising. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Data compression and denoising. (Reference: Page 9 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 9",
         "blockId": "block_01"
       },
       {
@@ -661,9 +660,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) Feature extraction",
-        "explanation": "Official NPTEL accepted answer: b) Feature extraction. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) Feature extraction. (Reference: Page 10 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 10",
         "blockId": "block_01"
       },
       {
@@ -677,9 +676,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) They capture general low-level features",
-        "explanation": "Official NPTEL accepted answer: a) They capture general low-level features. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) They capture general low-level features. (Reference: Page 10 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 10",
         "blockId": "block_01"
       },
       {
@@ -693,9 +692,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) Artificially increase training data diversity",
-        "explanation": "Official NPTEL accepted answer: b) Artificially increase training data diversity. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) Artificially increase training data diversity. (Reference: Page 10 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 10",
         "blockId": "block_01"
       },
       {
@@ -709,9 +708,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Image rotation and flipping",
-        "explanation": "Official NPTEL accepted answer: a) Image rotation and flipping. (Reference: Pages 1 - 10 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Image rotation and flipping. (Reference: Page 10 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 10",
         "blockId": "block_01"
       },
       {
@@ -720,13 +719,14 @@ window.QUIZ_DATA = [
         "options": [
           "Underfitting",
           "Overfitting",
-          "Gradient explosion"
+          "Gradient explosion",
+          "Vanishing gradients"
         ],
-        "correctIndex": 0,
-        "acceptedAnswer": "Underfitting",
-        "explanation": "Official NPTEL accepted answer: Underfitting. (Reference: Pages 1 - 10 of course PDF)",
+        "correctIndex": 1,
+        "acceptedAnswer": "b) Overfitting",
+        "explanation": "Official NPTEL accepted answer: b) Overfitting. (Reference: Page 10 of course PDF)",
         "topic": "CNN Fundamentals, Convolutions, Kernels & Activations",
-        "pageRange": "Pages 1 - 10",
+        "pageRange": "Page 10",
         "blockId": "block_01"
       }
     ]
@@ -738,7 +738,6 @@ window.QUIZ_DATA = [
     "subtitle": "Optimization, Initialization, Loss Functions & Regularization",
     "pageRange": "Pages 11 - 20",
     "badge": "Weeks 2-3 Focus",
-    "icon": "bi-sliders",
     "totalQuestions": 50,
     "questions": [
       {
@@ -752,9 +751,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) Dynamically adjust learning rate for stable convergence",
-        "explanation": "Official NPTEL accepted answer: b) Dynamically adjust learning rate for stable convergence. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) Dynamically adjust learning rate for stable convergence. (Reference: Page 11 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 11",
         "blockId": "block_02"
       },
       {
@@ -768,9 +767,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) Exploding gradients",
-        "explanation": "Official NPTEL accepted answer: b) Exploding gradients. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) Exploding gradients. (Reference: Page 11 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 11",
         "blockId": "block_02"
       },
       {
@@ -784,9 +783,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Balancing activation variances across layers",
-        "explanation": "Official NPTEL accepted answer: a) Balancing activation variances across layers. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Balancing activation variances across layers. (Reference: Page 11 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 11",
         "blockId": "block_02"
       },
       {
@@ -800,9 +799,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Learning stability and speed mon",
-        "explanation": "Official NPTEL accepted answer: a) Learning stability and speed mon. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Learning stability and speed mon. (Reference: Page 11 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 11",
         "blockId": "block_02"
       },
       {
@@ -816,9 +815,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Momentum and adaptive learning rate",
-        "explanation": "Official NPTEL accepted answer: a) Momentum and adaptive learning rate. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Momentum and adaptive learning rate. (Reference: Page 11 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 11",
         "blockId": "block_02"
       },
       {
@@ -832,9 +831,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Chain rule",
-        "explanation": "Official NPTEL accepted answer: a) Chain rule. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Chain rule. (Reference: Page 12 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 12",
         "blockId": "block_02"
       },
       {
@@ -848,9 +847,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) Classification",
-        "explanation": "Official NPTEL accepted answer: b) Classification. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) Classification. (Reference: Page 12 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 12",
         "blockId": "block_02"
       },
       {
@@ -864,9 +863,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) Logits to probability distribution",
-        "explanation": "Official NPTEL accepted answer: b) Logits to probability distribution. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) Logits to probability distribution. (Reference: Page 12 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 12",
         "blockId": "block_02"
       },
       {
@@ -880,9 +879,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Penalizing large weights CATton",
-        "explanation": "Official NPTEL accepted answer: a) Penalizing large weights CATton. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Penalizing large weights CATton. (Reference: Page 12 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 12",
         "blockId": "block_02"
       },
       {
@@ -896,9 +895,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Activation functions squash values to small ranges",
-        "explanation": "Official NPTEL accepted answer: a) Activation functions squash values to small ranges. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Activation functions squash values to small ranges. (Reference: Page 12 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 12",
         "blockId": "block_02"
       },
       {
@@ -912,9 +911,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Using identity skip connections",
-        "explanation": "Official NPTEL accepted answer: a) Using identity skip connections. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Using identity skip connections. (Reference: Page 13 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 13",
         "blockId": "block_02"
       },
       {
@@ -928,9 +927,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Learned spatial features of input",
-        "explanation": "Official NPTEL accepted answer: a) Learned spatial features of input. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Learned spatial features of input. (Reference: Page 13 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 13",
         "blockId": "block_02"
       },
       {
@@ -944,9 +943,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Understanding learned representations CATton",
-        "explanation": "Official NPTEL accepted answer: a) Understanding learned representations CATton. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Understanding learned representations CATton. (Reference: Page 13 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 13",
         "blockId": "block_02"
       },
       {
@@ -960,9 +959,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Localize important regions in an image",
-        "explanation": "Official NPTEL accepted answer: a) Localize important regions in an image. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Localize important regions in an image. (Reference: Page 13 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 13",
         "blockId": "block_02"
       },
       {
@@ -976,9 +975,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Focusing on relevant image regions",
-        "explanation": "Official NPTEL accepted answer: a) Focusing on relevant image regions. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Focusing on relevant image regions. (Reference: Page 13 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 13",
         "blockId": "block_02"
       },
       {
@@ -992,9 +991,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Image patches treated as sequences",
-        "explanation": "Official NPTEL accepted answer: a) Image patches treated as sequences. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Image patches treated as sequences. (Reference: Page 14 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 14",
         "blockId": "block_02"
       },
       {
@@ -1008,9 +1007,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Capturing global dependencies in an image",
-        "explanation": "Official NPTEL accepted answer: a) Capturing global dependencies in an image. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Capturing global dependencies in an image. (Reference: Page 14 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 14",
         "blockId": "block_02"
       },
       {
@@ -1024,9 +1023,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Learn diverse relationships in parallel",
-        "explanation": "Official NPTEL accepted answer: a) Learn diverse relationships in parallel. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Learn diverse relationships in parallel. (Reference: Page 14 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 14",
         "blockId": "block_02"
       },
       {
@@ -1040,9 +1039,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Transformers lack inherent spatial ordering",
-        "explanation": "Official NPTEL accepted answer: a) Transformers lack inherent spatial ordering. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Transformers lack inherent spatial ordering. (Reference: Page 14 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 14",
         "blockId": "block_02"
       },
       {
@@ -1056,9 +1055,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) CNNs use convolution, ViT uses attention",
-        "explanation": "Official NPTEL accepted answer: a) CNNs use convolution, ViT uses attention. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) CNNs use convolution, ViT uses attention. (Reference: Page 14 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 14",
         "blockId": "block_02"
       },
       {
@@ -1072,9 +1071,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Stable and faster convergence",
-        "explanation": "Official NPTEL accepted answer: a) Stable and faster convergence. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Stable and faster convergence. (Reference: Page 15 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 15",
         "blockId": "block_02"
       },
       {
@@ -1088,9 +1087,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Dropping weights instead of activations",
-        "explanation": "Official NPTEL accepted answer: a) Dropping weights instead of activations. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Dropping weights instead of activations. (Reference: Page 15 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 15",
         "blockId": "block_02"
       },
       {
@@ -1104,9 +1103,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) They exploit spatial locality and parameter sharing non",
-        "explanation": "Official NPTEL accepted answer: a) They exploit spatial locality and parameter sharing non. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) They exploit spatial locality and parameter sharing non. (Reference: Page 15 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 15",
         "blockId": "block_02"
       },
       {
@@ -1120,9 +1119,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Mean Average Precision",
-        "explanation": "Official NPTEL accepted answer: a) Mean Average Precision. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Mean Average Precision. (Reference: Page 15 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 15",
         "blockId": "block_02"
       },
       {
@@ -1136,9 +1135,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Overlap between predicted and true bounding boxes",
-        "explanation": "Official NPTEL accepted answer: a) Overlap between predicted and true bounding boxes. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Overlap between predicted and true bounding boxes. (Reference: Page 15 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 15",
         "blockId": "block_02"
       },
       {
@@ -1152,9 +1151,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Pixel-level similarity",
-        "explanation": "Official NPTEL accepted answer: a) Pixel-level similarity. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Pixel-level similarity. (Reference: Page 16 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 16",
         "blockId": "block_02"
       },
       {
@@ -1168,9 +1167,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Weighted loss functions and oversampling",
-        "explanation": "Official NPTEL accepted answer: a) Weighted loss functions and oversampling. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Weighted loss functions and oversampling. (Reference: Page 16 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 16",
         "blockId": "block_02"
       },
       {
@@ -1184,9 +1183,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Pretraining large visual models",
-        "explanation": "Official NPTEL accepted answer: a) Pretraining large visual models. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Pretraining large visual models. (Reference: Page 16 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 16",
         "blockId": "block_02"
       },
       {
@@ -1200,9 +1199,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) IO object classes with small RGB images mon",
-        "explanation": "Official NPTEL accepted answer: a) IO object classes with small RGB images mon. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) IO object classes with small RGB images mon. (Reference: Page 16 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 16",
         "blockId": "block_02"
       },
       {
@@ -1216,9 +1215,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) It concatenates feature maps instead of adding them",
-        "explanation": "Official NPTEL accepted answer: a) It concatenates feature maps instead of adding them. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) It concatenates feature maps instead of adding them. (Reference: Page 16 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 16",
         "blockId": "block_02"
       },
       {
@@ -1232,9 +1231,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Strong feature reuse and gradient flow",
-        "explanation": "Official NPTEL accepted answer: a) Strong feature reuse and gradient flow. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Strong feature reuse and gradient flow. (Reference: Page 17 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 17",
         "blockId": "block_02"
       },
       {
@@ -1248,9 +1247,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Edge and mobile devices",
-        "explanation": "Official NPTEL accepted answer: a) Edge and mobile devices. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Edge and mobile devices. (Reference: Page 17 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 17",
         "blockId": "block_02"
       },
       {
@@ -1264,9 +1263,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Reduce computation and model size",
-        "explanation": "Official NPTEL accepted answer: a) Reduce computation and model size. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Reduce computation and model size. (Reference: Page 17 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 17",
         "blockId": "block_02"
       },
       {
@@ -1280,9 +1279,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Uniformly scaling depth, width, and resolution",
-        "explanation": "Official NPTEL accepted answer: a) Uniformly scaling depth, width, and resolution. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Uniformly scaling depth, width, and resolution. (Reference: Page 17 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 17",
         "blockId": "block_02"
       },
       {
@@ -1296,9 +1295,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Fire modules with squeeze and expand layers",
-        "explanation": "Official NPTEL accepted answer: a) Fire modules with squeeze and expand layers. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Fire modules with squeeze and expand layers. (Reference: Page 17 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 17",
         "blockId": "block_02"
       },
       {
@@ -1312,9 +1311,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Vector outputs to preserve spatial hierarchies",
-        "explanation": "Official NPTEL accepted answer: a) Vector outputs to preserve spatial hierarchies. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Vector outputs to preserve spatial hierarchies. (Reference: Page 18 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 18",
         "blockId": "block_02"
       },
       {
@@ -1328,9 +1327,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Model part-whole relationships",
-        "explanation": "Official NPTEL accepted answer: a) Model part-whole relationships. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Model part-whole relationships. (Reference: Page 18 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 18",
         "blockId": "block_02"
       },
       {
@@ -1344,9 +1343,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Image synthesis and style transfer",
-        "explanation": "Official NPTEL accepted answer: a) Image synthesis and style transfer. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Image synthesis and style transfer. (Reference: Page 18 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 18",
         "blockId": "block_02"
       },
       {
@@ -1360,9 +1359,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Conditioning generation on labels or input data",
-        "explanation": "Official NPTEL accepted answer: a) Conditioning generation on labels or input data. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Conditioning generation on labels or input data. (Reference: Page 18 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 18",
         "blockId": "block_02"
       },
       {
@@ -1376,9 +1375,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Unpaired image-to-image translation",
-        "explanation": "Official NPTEL accepted answer: a) Unpaired image-to-image translation. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Unpaired image-to-image translation. (Reference: Page 18 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 18",
         "blockId": "block_02"
       },
       {
@@ -1392,9 +1391,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Using Earth Mover's Distance as loss function",
-        "explanation": "Official NPTEL accepted answer: a) Using Earth Mover's Distance as loss function. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Using Earth Mover's Distance as loss function. (Reference: Page 19 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 19",
         "blockId": "block_02"
       },
       {
@@ -1408,9 +1407,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Linear output with weight clipping",
-        "explanation": "Official NPTEL accepted answer: a) Linear output with weight clipping. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Linear output with weight clipping. (Reference: Page 19 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 19",
         "blockId": "block_02"
       },
       {
@@ -1424,9 +1423,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Deep Convolutional GAN",
-        "explanation": "Official NPTEL accepted answer: a) Deep Convolutional GAN. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Deep Convolutional GAN. (Reference: Page 19 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 19",
         "blockId": "block_02"
       },
       {
@@ -1440,9 +1439,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Convolutional and transpose convolutional layers",
-        "explanation": "Official NPTEL accepted answer: a) Convolutional and transpose convolutional layers. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Convolutional and transpose convolutional layers. (Reference: Page 19 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 19",
         "blockId": "block_02"
       },
       {
@@ -1456,9 +1455,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Stabilizing training by aligning features",
-        "explanation": "Official NPTEL accepted answer: a) Stabilizing training by aligning features. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Stabilizing training by aligning features. (Reference: Page 19 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 19",
         "blockId": "block_02"
       },
       {
@@ -1472,9 +1471,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Control generated output characteristics",
-        "explanation": "Official NPTEL accepted answer: a) Control generated output characteristics. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Control generated output characteristics. (Reference: Page 20 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 20",
         "blockId": "block_02"
       },
       {
@@ -1488,9 +1487,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Small perturbations that fool neural networks",
-        "explanation": "Official NPTEL accepted answer: a) Small perturbations that fool neural networks. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Small perturbations that fool neural networks. (Reference: Page 20 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 20",
         "blockId": "block_02"
       },
       {
@@ -1504,9 +1503,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Model 's resistance to malicious input perturbations non",
-        "explanation": "Official NPTEL accepted answer: a) Model 's resistance to malicious input perturbations non. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Model 's resistance to malicious input perturbations non. (Reference: Page 20 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 20",
         "blockId": "block_02"
       },
       {
@@ -1520,9 +1519,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Interpreting model decisions visually",
-        "explanation": "Official NPTEL accepted answer: a) Interpreting model decisions visually. (Reference: Pages 11 - 20 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Interpreting model decisions visually. (Reference: Page 20 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 20",
         "blockId": "block_02"
       },
       {
@@ -1531,13 +1530,14 @@ window.QUIZ_DATA = [
         "options": [
           "Visualize pixel importance in predictions",
           "Reduce dimensionality",
-          "Increase color contrast"
+          "Increase color contrast",
+          "Compute gradients only"
         ],
         "correctIndex": 0,
-        "acceptedAnswer": "Visualize pixel importance in predictions",
-        "explanation": "Official NPTEL accepted answer: Visualize pixel importance in predictions. (Reference: Pages 11 - 20 of course PDF)",
+        "acceptedAnswer": "a) Visualize pixel importance in predictions",
+        "explanation": "Official NPTEL accepted answer: a) Visualize pixel importance in predictions. (Reference: Page 20 of course PDF)",
         "topic": "Optimization, Initialization, Loss Functions & Regularization",
-        "pageRange": "Pages 11 - 20",
+        "pageRange": "Page 20",
         "blockId": "block_02"
       }
     ]
@@ -1549,7 +1549,6 @@ window.QUIZ_DATA = [
     "subtitle": "Explainable AI (XAI), Super-Resolution & Object Tracking",
     "pageRange": "Pages 21 - 30",
     "badge": "Weeks 3-4 Focus",
-    "icon": "bi-eye",
     "totalQuestions": 50,
     "questions": [
       {
@@ -1563,9 +1562,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Approximating local decision boundaries",
-        "explanation": "Official NPTEL accepted answer: a) Approximating local decision boundaries. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Approximating local decision boundaries. (Reference: Page 21 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 21",
         "blockId": "block_03"
       },
       {
@@ -1579,9 +1578,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Feature contribution to individual predictions",
-        "explanation": "Official NPTEL accepted answer: a) Feature contribution to individual predictions. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Feature contribution to individual predictions. (Reference: Page 21 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 21",
         "blockId": "block_03"
       },
       {
@@ -1595,9 +1594,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Enhance low-resolution images",
-        "explanation": "Official NPTEL accepted answer: a) Enhance low-resolution images. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Enhance low-resolution images. (Reference: Page 21 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 21",
         "blockId": "block_03"
       },
       {
@@ -1611,9 +1610,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Generating high-resolution images",
-        "explanation": "Official NPTEL accepted answer: a) Generating high-resolution images. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Generating high-resolution images. (Reference: Page 21 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 21",
         "blockId": "block_03"
       },
       {
@@ -1627,9 +1626,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Maintains object identity across frames",
-        "explanation": "Official NPTEL accepted answer: a) Maintains object identity across frames. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Maintains object identity across frames. (Reference: Page 21 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 21",
         "blockId": "block_03"
       },
       {
@@ -1643,9 +1642,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) One-shot image recognition and similarity tasks",
-        "explanation": "Official NPTEL accepted answer: a) One-shot image recognition and similarity tasks. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) One-shot image recognition and similarity tasks. (Reference: Page 22 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 22",
         "blockId": "block_03"
       },
       {
@@ -1659,9 +1658,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Learn discriminative embedding spaces",
-        "explanation": "Official NPTEL accepted answer: a) Learn discriminative embedding spaces. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Learn discriminative embedding spaces. (Reference: Page 22 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 22",
         "blockId": "block_03"
       },
       {
@@ -1675,9 +1674,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Anchor is closer to positive sample than negative",
-        "explanation": "Official NPTEL accepted answer: a) Anchor is closer to positive sample than negative. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Anchor is closer to positive sample than negative. (Reference: Page 22 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 22",
         "blockId": "block_03"
       },
       {
@@ -1691,9 +1690,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Transfer learning in custom datasets",
-        "explanation": "Official NPTEL accepted answer: a) Transfer learning in custom datasets. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Transfer learning in custom datasets. (Reference: Page 22 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 22",
         "blockId": "block_03"
       },
       {
@@ -1707,9 +1706,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) CNN for feature extraction and RNN for sequence generation",
-        "explanation": "Official NPTEL accepted answer: a) CNN for feature extraction and RNN for sequence generation. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) CNN for feature extraction and RNN for sequence generation. (Reference: Page 22 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 22",
         "blockId": "block_03"
       },
       {
@@ -1723,9 +1722,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Focus on relevant regions while generating words",
-        "explanation": "Official NPTEL accepted answer: a) Focus on relevant regions while generating words. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Focus on relevant regions while generating words. (Reference: Page 23 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 23",
         "blockId": "block_03"
       },
       {
@@ -1739,9 +1738,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) BLEU and METEOR scores",
-        "explanation": "Official NPTEL accepted answer: a) BLEU and METEOR scores. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) BLEU and METEOR scores. (Reference: Page 23 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 23",
         "blockId": "block_03"
       },
       {
@@ -1755,9 +1754,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) MOTA and MOTP",
-        "explanation": "Official NPTEL accepted answer: a) MOTA and MOTP. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) MOTA and MOTP. (Reference: Page 23 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 23",
         "blockId": "block_03"
       },
       {
@@ -1771,9 +1770,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Extract character patterns",
-        "explanation": "Official NPTEL accepted answer: a) Extract character patterns. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Extract character patterns. (Reference: Page 23 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 23",
         "blockId": "block_03"
       },
       {
@@ -1787,9 +1786,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Sequential tasks like video analysis",
-        "explanation": "Official NPTEL accepted answer: a) Sequential tasks like video analysis. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Sequential tasks like video analysis. (Reference: Page 23 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 23",
         "blockId": "block_03"
       },
       {
@@ -1803,9 +1802,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Video frame analysis with temporal features",
-        "explanation": "Official NPTEL accepted answer: a) Video frame analysis with temporal features. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Video frame analysis with temporal features. (Reference: Page 24 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 24",
         "blockId": "block_03"
       },
       {
@@ -1819,9 +1818,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Capturing motion between frames",
-        "explanation": "Official NPTEL accepted answer: a) Capturing motion between frames. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Capturing motion between frames. (Reference: Page 24 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 24",
         "blockId": "block_03"
       },
       {
@@ -1835,9 +1834,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Extract spatial and temporal features jointly",
-        "explanation": "Official NPTEL accepted answer: a) Extract spatial and temporal features jointly. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Extract spatial and temporal features jointly. (Reference: Page 24 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 24",
         "blockId": "block_03"
       },
       {
@@ -1851,9 +1850,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Combining multi-scale feature maps",
-        "explanation": "Official NPTEL accepted answer: a) Combining multi-scale feature maps. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Combining multi-scale feature maps. (Reference: Page 24 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 24",
         "blockId": "block_03"
       },
       {
@@ -1867,9 +1866,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Predefined bounding box templates",
-        "explanation": "Official NPTEL accepted answer: a) Predefined bounding box templates. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Predefined bounding box templates. (Reference: Page 24 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 24",
         "blockId": "block_03"
       },
       {
@@ -1883,9 +1882,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Focal loss",
-        "explanation": "Official NPTEL accepted answer: a) Focal loss. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Focal loss. (Reference: Page 25 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 25",
         "blockId": "block_03"
       },
       {
@@ -1899,9 +1898,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Content from one image and style from another",
-        "explanation": "Official NPTEL accepted answer: a) Content from one image and style from another. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Content from one image and style from another. (Reference: Page 25 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 25",
         "blockId": "block_03"
       },
       {
@@ -1915,9 +1914,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Content loss and style loss mon",
-        "explanation": "Official NPTEL accepted answer: a) Content loss and style loss mon. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Content loss and style loss mon. (Reference: Page 25 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 25",
         "blockId": "block_03"
       },
       {
@@ -1931,9 +1930,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Model optimization and inference acceleration",
-        "explanation": "Official NPTEL accepted answer: a) Model optimization and inference acceleration. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Model optimization and inference acceleration. (Reference: Page 25 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 25",
         "blockId": "block_03"
       },
       {
@@ -1947,9 +1946,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) A framework-independent model format",
-        "explanation": "Official NPTEL accepted answer: a) A framework-independent model format. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) A framework-independent model format. (Reference: Page 25 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 25",
         "blockId": "block_03"
       },
       {
@@ -1963,9 +1962,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Model precision for faster inference",
-        "explanation": "Official NPTEL accepted answer: a) Model precision for faster inference. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Model precision for faster inference. (Reference: Page 26 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 26",
         "blockId": "block_03"
       },
       {
@@ -1979,9 +1978,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Remove redundant weights and compress model",
-        "explanation": "Official NPTEL accepted answer: a) Remove redundant weights and compress model. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Remove redundant weights and compress model. (Reference: Page 26 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 26",
         "blockId": "block_03"
       },
       {
@@ -1995,9 +1994,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) A smaller student network from a larger teacher model",
-        "explanation": "Official NPTEL accepted answer: a) A smaller student network from a larger teacher model. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) A smaller student network from a larger teacher model. (Reference: Page 26 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 26",
         "blockId": "block_03"
       },
       {
@@ -2011,9 +2010,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Mean Average Precision (mAP)",
-        "explanation": "Official NPTEL accepted answer: a) Mean Average Precision (mAP). (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Mean Average Precision (mAP). (Reference: Page 26 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 26",
         "blockId": "block_03"
       },
       {
@@ -2027,9 +2026,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Overlap between predicted and ground-truth boxes",
-        "explanation": "Official NPTEL accepted answer: a) Overlap between predicted and ground-truth boxes. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Overlap between predicted and ground-truth boxes. (Reference: Page 26 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 26",
         "blockId": "block_03"
       },
       {
@@ -2043,9 +2042,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Fraction of true positives among predicted positives",
-        "explanation": "Official NPTEL accepted answer: a) Fraction of true positives among predicted positives. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Fraction of true positives among predicted positives. (Reference: Page 27 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 27",
         "blockId": "block_03"
       },
       {
@@ -2059,9 +2058,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Fraction of true positives among all actual positives",
-        "explanation": "Official NPTEL accepted answer: a) Fraction of true positives among all actual positives. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Fraction of true positives among all actual positives. (Reference: Page 27 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 27",
         "blockId": "block_03"
       },
       {
@@ -2075,9 +2074,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Precision and recall CATton",
-        "explanation": "Official NPTEL accepted answer: a) Precision and recall CATton. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Precision and recall CATton. (Reference: Page 27 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 27",
         "blockId": "block_03"
       },
       {
@@ -2091,9 +2090,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) True positive rate vs. false positive rate",
-        "explanation": "Official NPTEL accepted answer: a) True positive rate vs. false positive rate. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) True positive rate vs. false positive rate. (Reference: Page 27 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 27",
         "blockId": "block_03"
       },
       {
@@ -2107,9 +2106,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Model 's discrimination ability",
-        "explanation": "Official NPTEL accepted answer: a) Model 's discrimination ability. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Model 's discrimination ability. (Reference: Page 27 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 27",
         "blockId": "block_03"
       },
       {
@@ -2123,9 +2122,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Visualizing classification performance",
-        "explanation": "Official NPTEL accepted answer: a) Visualizing classification performance. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Visualizing classification performance. (Reference: Page 28 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 28",
         "blockId": "block_03"
       },
       {
@@ -2139,9 +2138,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Evaluating image reconstruction quality",
-        "explanation": "Official NPTEL accepted answer: a) Evaluating image reconstruction quality. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Evaluating image reconstruction quality. (Reference: Page 28 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 28",
         "blockId": "block_03"
       },
       {
@@ -2155,9 +2154,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Perceptual similarity between images",
-        "explanation": "Official NPTEL accepted answer: a) Perceptual similarity between images. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Perceptual similarity between images. (Reference: Page 28 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 28",
         "blockId": "block_03"
       },
       {
@@ -2171,9 +2170,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Disabled",
-        "explanation": "Official NPTEL accepted answer: a) Disabled. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Disabled. (Reference: Page 28 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 28",
         "blockId": "block_03"
       },
       {
@@ -2187,9 +2186,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Combining multiple models to improve performance",
-        "explanation": "Official NPTEL accepted answer: a) Combining multiple models to improve performance. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Combining multiple models to improve performance. (Reference: Page 28 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 28",
         "blockId": "block_03"
       },
       {
@@ -2203,9 +2202,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Ensemble learning techniques",
-        "explanation": "Official NPTEL accepted answer: a) Ensemble learning techniques. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Ensemble learning techniques. (Reference: Page 29 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 29",
         "blockId": "block_03"
       },
       {
@@ -2219,9 +2218,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Regularization technique",
-        "explanation": "Official NPTEL accepted answer: a) Regularization technique. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Regularization technique. (Reference: Page 29 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 29",
         "blockId": "block_03"
       },
       {
@@ -2235,9 +2234,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Stabilize and accelerate training",
-        "explanation": "Official NPTEL accepted answer: a) Stabilize and accelerate training. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Stabilize and accelerate training. (Reference: Page 29 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 29",
         "blockId": "block_03"
       },
       {
@@ -2251,9 +2250,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Normalizes across features within each example",
-        "explanation": "Official NPTEL accepted answer: a) Normalizes across features within each example. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Normalizes across features within each example. (Reference: Page 29 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 29",
         "blockId": "block_03"
       },
       {
@@ -2267,9 +2266,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Prevent overfitting by penalizing large weights",
-        "explanation": "Official NPTEL accepted answer: a) Prevent overfitting by penalizing large weights. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Prevent overfitting by penalizing large weights. (Reference: Page 29 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 29",
         "blockId": "block_03"
       },
       {
@@ -2283,9 +2282,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Overfitting during training",
-        "explanation": "Official NPTEL accepted answer: a) Overfitting during training. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Overfitting during training. (Reference: Page 30 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 30",
         "blockId": "block_03"
       },
       {
@@ -2299,9 +2298,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Prevent exploding gradients",
-        "explanation": "Official NPTEL accepted answer: a) Prevent exploding gradients. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Prevent exploding gradients. (Reference: Page 30 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 30",
         "blockId": "block_03"
       },
       {
@@ -2315,9 +2314,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Faster computation with lower memory usage mon",
-        "explanation": "Official NPTEL accepted answer: a) Faster computation with lower memory usage mon. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Faster computation with lower memory usage mon. (Reference: Page 30 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 30",
         "blockId": "block_03"
       },
       {
@@ -2331,9 +2330,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Training data is limited",
-        "explanation": "Official NPTEL accepted answer: a) Training data is limited. (Reference: Pages 21 - 30 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Training data is limited. (Reference: Page 30 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 30",
         "blockId": "block_03"
       },
       {
@@ -2342,13 +2341,14 @@ window.QUIZ_DATA = [
         "options": [
           "Updating selected layers with new data",
           "Re-training from scratch",
-          "Removing all weights"
+          "Removing all weights",
+          "Random initialization"
         ],
         "correctIndex": 0,
-        "acceptedAnswer": "Updating selected layers with new data",
-        "explanation": "Official NPTEL accepted answer: Updating selected layers with new data. (Reference: Pages 21 - 30 of course PDF)",
+        "acceptedAnswer": "a) Updating selected layers with new data",
+        "explanation": "Official NPTEL accepted answer: a) Updating selected layers with new data. (Reference: Page 30 of course PDF)",
         "topic": "Explainable AI (XAI), Super-Resolution & Object Tracking",
-        "pageRange": "Pages 21 - 30",
+        "pageRange": "Page 30",
         "blockId": "block_03"
       }
     ]
@@ -2360,7 +2360,6 @@ window.QUIZ_DATA = [
     "subtitle": "Model Compression, Quantization, Distillation & Transformers",
     "pageRange": "Pages 31 - 40",
     "badge": "Weeks 4-5 Focus",
-    "icon": "bi-lightning-charge",
     "totalQuestions": 48,
     "questions": [
       {
@@ -2374,9 +2373,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Transfer learning between different data distributions",
-        "explanation": "Official NPTEL accepted answer: a) Transfer learning between different data distributions. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Transfer learning between different data distributions. (Reference: Page 31 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 31",
         "blockId": "block_04"
       },
       {
@@ -2390,9 +2389,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Reducing precision of weights and activations",
-        "explanation": "Official NPTEL accepted answer: a) Reducing precision of weights and activations. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Reducing precision of weights and activations. (Reference: Page 31 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 31",
         "blockId": "block_04"
       },
       {
@@ -2406,9 +2405,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) After model training to reduce model size",
-        "explanation": "Official NPTEL accepted answer: a) After model training to reduce model size. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) After model training to reduce model size. (Reference: Page 31 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 31",
         "blockId": "block_04"
       },
       {
@@ -2422,9 +2421,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Model deployment and optimization",
-        "explanation": "Official NPTEL accepted answer: a) Model deployment and optimization. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Model deployment and optimization. (Reference: Page 31 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 31",
         "blockId": "block_04"
       },
       {
@@ -2438,9 +2437,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Inference speed and reduces model size",
-        "explanation": "Official NPTEL accepted answer: a) Inference speed and reduces model size. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Inference speed and reduces model size. (Reference: Page 31 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 31",
         "blockId": "block_04"
       },
       {
@@ -2454,9 +2453,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Smaller student models from larger teacher networks",
-        "explanation": "Official NPTEL accepted answer: a) Smaller student models from larger teacher networks. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Smaller student models from larger teacher networks. (Reference: Page 32 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 32",
         "blockId": "block_04"
       },
       {
@@ -2470,9 +2469,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Training models across decentralized devices without data sharing",
-        "explanation": "Official NPTEL accepted answer: a) Training models across decentralized devices without data sharing. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Training models across decentralized devices without data sharing. (Reference: Page 32 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 32",
         "blockId": "block_04"
       },
       {
@@ -2486,9 +2485,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Important regions influencing CNN decisions non",
-        "explanation": "Official NPTEL accepted answer: a) Important regions influencing CNN decisions non. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Important regions influencing CNN decisions non. (Reference: Page 32 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 32",
         "blockId": "block_04"
       },
       {
@@ -2502,9 +2501,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Weighting feature maps with class-specific gradients",
-        "explanation": "Official NPTEL accepted answer: a) Weighting feature maps with class-specific gradients. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Weighting feature maps with class-specific gradients. (Reference: Page 32 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 32",
         "blockId": "block_04"
       },
       {
@@ -2518,9 +2517,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Input regions contributing to activations",
-        "explanation": "Official NPTEL accepted answer: a) Input regions contributing to activations. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Input regions contributing to activations. (Reference: Page 32 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 32",
         "blockId": "block_04"
       },
       {
@@ -2534,9 +2533,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Identify crucial regions by masking parts of the input",
-        "explanation": "Official NPTEL accepted answer: a) Identify crucial regions by masking parts of the input. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Identify crucial regions by masking parts of the input. (Reference: Page 33 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 33",
         "blockId": "block_04"
       },
       {
@@ -2550,9 +2549,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) SHAP and LIME",
-        "explanation": "Official NPTEL accepted answer: a) SHAP and LIME. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) SHAP and LIME. (Reference: Page 33 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 33",
         "blockId": "block_04"
       },
       {
@@ -2566,9 +2565,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Aligning text and image embeddings",
-        "explanation": "Official NPTEL accepted answer: a) Aligning text and image embeddings. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Aligning text and image embeddings. (Reference: Page 33 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 33",
         "blockId": "block_04"
       },
       {
@@ -2582,9 +2581,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Zero-shot image classification CATton",
-        "explanation": "Official NPTEL accepted answer: a) Zero-shot image classification CATton. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Zero-shot image classification CATton. (Reference: Page 33 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 33",
         "blockId": "block_04"
       },
       {
@@ -2598,9 +2597,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Self-supervised learning method for visual representations",
-        "explanation": "Official NPTEL accepted answer: a) Self-supervised learning method for visual representations. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Self-supervised learning method for visual representations. (Reference: Page 33 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 33",
         "blockId": "block_04"
       },
       {
@@ -2614,9 +2613,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Student-teacher self-distillation",
-        "explanation": "Official NPTEL accepted answer: a) Student-teacher self-distillation. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Student-teacher self-distillation. (Reference: Page 34 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 34",
         "blockId": "block_04"
       },
       {
@@ -2630,9 +2629,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Prompt-based general image segmentation",
-        "explanation": "Official NPTEL accepted answer: a) Prompt-based general image segmentation. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Prompt-based general image segmentation. (Reference: Page 34 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 34",
         "blockId": "block_04"
       },
       {
@@ -2646,9 +2645,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Points, boxes, or masks as prompts",
-        "explanation": "Official NPTEL accepted answer: a) Points, boxes, or masks as prompts. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Points, boxes, or masks as prompts. (Reference: Page 34 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 34",
         "blockId": "block_04"
       },
       {
@@ -2662,9 +2661,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) CNN feature extractors with attention mechanisms",
-        "explanation": "Official NPTEL accepted answer: a) CNN feature extractors with attention mechanisms. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) CNN feature extractors with attention mechanisms. (Reference: Page 34 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 34",
         "blockId": "block_04"
       },
       {
@@ -2678,9 +2677,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Image patches into token embeddings",
-        "explanation": "Official NPTEL accepted answer: a) Image patches into token embeddings. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Image patches into token embeddings. (Reference: Page 34 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 34",
         "blockId": "block_04"
       },
       {
@@ -2694,9 +2693,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Spatial information to token sequence",
-        "explanation": "Official NPTEL accepted answer: a) Spatial information to token sequence. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Spatial information to token sequence. (Reference: Page 35 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 35",
         "blockId": "block_04"
       },
       {
@@ -2710,9 +2709,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) CNN for local and Transformer for global context",
-        "explanation": "Official NPTEL accepted answer: a) CNN for local and Transformer for global context. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) CNN for local and Transformer for global context. (Reference: Page 35 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 35",
         "blockId": "block_04"
       },
       {
@@ -2726,9 +2725,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Traditional detection heads with transformer-based attention",
-        "explanation": "Official NPTEL accepted answer: a) Traditional detection heads with transformer-based attention. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Traditional detection heads with transformer-based attention. (Reference: Page 35 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 35",
         "blockId": "block_04"
       },
       {
@@ -2742,9 +2741,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Text and image understanding",
-        "explanation": "Official NPTEL accepted answer: a) Text and image understanding. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Text and image understanding. (Reference: Page 35 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 35",
         "blockId": "block_04"
       },
       {
@@ -2758,9 +2757,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Generalization across tasks",
-        "explanation": "Official NPTEL accepted answer: a) Generalization across tasks. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Generalization across tasks. (Reference: Page 35 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 35",
         "blockId": "block_04"
       },
       {
@@ -2774,9 +2773,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Large-scale multimodal pretraining models",
-        "explanation": "Official NPTEL accepted answer: a) Large-scale multimodal pretraining models. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Large-scale multimodal pretraining models. (Reference: Page 36 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 36",
         "blockId": "block_04"
       },
       {
@@ -2790,9 +2789,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Recognizing unseen classes using semantic knowledge",
-        "explanation": "Official NPTEL accepted answer: a) Recognizing unseen classes using semantic knowledge. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Recognizing unseen classes using semantic knowledge. (Reference: Page 36 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 36",
         "blockId": "block_04"
       },
       {
@@ -2806,9 +2805,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Learning from very few labeled samples",
-        "explanation": "Official NPTEL accepted answer: a) Learning from very few labeled samples. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Learning from very few labeled samples. (Reference: Page 36 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 36",
         "blockId": "block_04"
       },
       {
@@ -2822,9 +2821,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Model adaptability to new tasks with limited data",
-        "explanation": "Official NPTEL accepted answer: a) Model adaptability to new tasks with limited data. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Model adaptability to new tasks with limited data. (Reference: Page 36 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 36",
         "blockId": "block_04"
       },
       {
@@ -2838,9 +2837,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Designing optimal neural network architectures",
-        "explanation": "Official NPTEL accepted answer: a) Designing optimal neural network architectures. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Designing optimal neural network architectures. (Reference: Page 36 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 36",
         "blockId": "block_04"
       },
       {
@@ -2854,9 +2853,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Automated model training and hyperparameter tuning",
-        "explanation": "Official NPTEL accepted answer: a) Automated model training and hyperparameter tuning. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Automated model training and hyperparameter tuning. (Reference: Page 37 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 37",
         "blockId": "block_04"
       },
       {
@@ -2870,9 +2869,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) They ensure transparency and bias-free decisions",
-        "explanation": "Official NPTEL accepted answer: a) They ensure transparency and bias-free decisions. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) They ensure transparency and bias-free decisions. (Reference: Page 37 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 37",
         "blockId": "block_04"
       },
       {
@@ -2886,9 +2885,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Unfair or inaccurate model predictions mon",
-        "explanation": "Official NPTEL accepted answer: a) Unfair or inaccurate model predictions mon. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Unfair or inaccurate model predictions mon. (Reference: Page 37 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 37",
         "blockId": "block_04"
       },
       {
@@ -2902,9 +2901,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Transparency, accountability, and fairness",
-        "explanation": "Official NPTEL accepted answer: a) Transparency, accountability, and fairness. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Transparency, accountability, and fairness. (Reference: Page 37 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 37",
         "blockId": "block_04"
       },
       {
@@ -2918,9 +2917,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Training becomes more stable",
-        "explanation": "Official NPTEL accepted answer: a) Training becomes more stable. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Training becomes more stable. (Reference: Page 37 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 37",
         "blockId": "block_04"
       },
       {
@@ -2934,9 +2933,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) 30x30x64",
-        "explanation": "Official NPTEL accepted answer: a) 30x30x64. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) 30x30x64. (Reference: Page 38 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 38",
         "blockId": "block_04"
       },
       {
@@ -2950,9 +2949,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) 15x15x64",
-        "explanation": "Official NPTEL accepted answer: a) 15x15x64. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) 15x15x64. (Reference: Page 38 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 38",
         "blockId": "block_04"
       },
       {
@@ -2965,9 +2964,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "b) 75%",
-        "explanation": "Official NPTEL accepted answer: b) 75%. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: b) 75%. (Reference: Page 38 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 38",
         "blockId": "block_04"
       },
       {
@@ -2981,9 +2980,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) 8192",
-        "explanation": "Official NPTEL accepted answer: a) 8192. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) 8192. (Reference: Page 38 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 38",
         "blockId": "block_04"
       },
       {
@@ -2997,9 +2996,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Model can capture more complex variations",
-        "explanation": "Official NPTEL accepted answer: a) Model can capture more complex variations. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Model can capture more complex variations. (Reference: Page 39 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 39",
         "blockId": "block_04"
       },
       {
@@ -3013,9 +3012,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Mode collapse",
-        "explanation": "Official NPTEL accepted answer: a) Mode collapse. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Mode collapse. (Reference: Page 39 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 39",
         "blockId": "block_04"
       },
       {
@@ -3029,9 +3028,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Use a weighted cross-entropy loss CATton",
-        "explanation": "Official NPTEL accepted answer: a) Use a weighted cross-entropy loss CATton. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Use a weighted cross-entropy loss CATton. (Reference: Page 39 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 39",
         "blockId": "block_04"
       },
       {
@@ -3045,9 +3044,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Mitigates vanishing gradients",
-        "explanation": "Official NPTEL accepted answer: a) Mitigates vanishing gradients. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Mitigates vanishing gradients. (Reference: Page 39 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 39",
         "blockId": "block_04"
       },
       {
@@ -3061,9 +3060,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) 196",
-        "explanation": "Official NPTEL accepted answer: a) 196. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) 196. (Reference: Page 40 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 40",
         "blockId": "block_04"
       },
       {
@@ -3077,9 +3076,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Apply early stopping",
-        "explanation": "Official NPTEL accepted answer: a) Apply early stopping. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Apply early stopping. (Reference: Page 40 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 40",
         "blockId": "block_04"
       },
       {
@@ -3093,9 +3092,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Gradient clipping",
-        "explanation": "Official NPTEL accepted answer: a) Gradient clipping. (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Gradient clipping. (Reference: Page 40 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 40",
         "blockId": "block_04"
       },
       {
@@ -3109,9 +3108,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) -log(0.6)",
-        "explanation": "Official NPTEL accepted answer: a) -log(0.6). (Reference: Pages 31 - 40 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) -log(0.6). (Reference: Page 40 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 40",
         "blockId": "block_04"
       },
       {
@@ -3119,13 +3118,15 @@ window.QUIZ_DATA = [
         "question": "In object detection, an IOU threshold of 0.5 means:",
         "options": [
           "A predicted box is correct if it overlaps the ground truth by at least 50%",
-          "Precision must be 50%"
+          "Precision must be 50%",
+          "Detection confidence is 0.5",
+          "Only 50% of classes are detected"
         ],
         "correctIndex": 0,
-        "acceptedAnswer": "A predicted box is correct if it overlaps the ground truth by at least 50%",
-        "explanation": "Official NPTEL accepted answer: A predicted box is correct if it overlaps the ground truth by at least 50%. (Reference: Pages 31 - 40 of course PDF)",
+        "acceptedAnswer": "a) A predicted box is correct if it overlaps the ground truth by at least 50%",
+        "explanation": "Official NPTEL accepted answer: a) A predicted box is correct if it overlaps the ground truth by at least 50%. (Reference: Page 40 of course PDF)",
         "topic": "Model Compression, Quantization, Distillation & Transformers",
-        "pageRange": "Pages 31 - 40",
+        "pageRange": "Page 40",
         "blockId": "block_04"
       }
     ]
@@ -3137,7 +3138,6 @@ window.QUIZ_DATA = [
     "subtitle": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
     "pageRange": "Pages 41 - 50",
     "badge": "Weeks 5-6 Focus",
-    "icon": "bi-calculator",
     "totalQuestions": 32,
     "questions": [
       {
@@ -3151,9 +3151,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) 200",
-        "explanation": "Official NPTEL accepted answer: a) 200. (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) 200. (Reference: Page 41 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 41",
         "blockId": "block_05"
       },
       {
@@ -3167,9 +3167,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Use Leaky ReLU or Parametric ReLU",
-        "explanation": "Official NPTEL accepted answer: a) Use Leaky ReLU or Parametric ReLU. (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Use Leaky ReLU or Parametric ReLU. (Reference: Page 41 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 41",
         "blockId": "block_05"
       },
       {
@@ -3183,9 +3183,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) All neurons are used and weights are scaled appropriately",
-        "explanation": "Official NPTEL accepted answer: a) All neurons are used and weights are scaled appropriately. (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) All neurons are used and weights are scaled appropriately. (Reference: Page 41 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 41",
         "blockId": "block_05"
       },
       {
@@ -3197,9 +3197,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "50%",
-        "explanation": "Official NPTEL accepted answer: 50%. (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: 50%. (Reference: Page 41 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 41",
         "blockId": "block_05"
       },
       {
@@ -3213,9 +3213,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) 112x112",
-        "explanation": "Official NPTEL accepted answer: a) 112x112. (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) 112x112. (Reference: Page 42 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 42",
         "blockId": "block_05"
       },
       {
@@ -3229,9 +3229,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Macro Fl -score",
-        "explanation": "Official NPTEL accepted answer: a) Macro Fl -score. (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Macro Fl -score. (Reference: Page 42 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 42",
         "blockId": "block_05"
       },
       {
@@ -3245,9 +3245,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) 32x32",
-        "explanation": "Official NPTEL accepted answer: a) 32x32. (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) 32x32. (Reference: Page 42 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 42",
         "blockId": "block_05"
       },
       {
@@ -3261,9 +3261,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Class 0",
-        "explanation": "Official NPTEL accepted answer: a) Class 0. (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Class 0. (Reference: Page 42 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 42",
         "blockId": "block_05"
       },
       {
@@ -3277,9 +3277,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Use learning rate scheduler",
-        "explanation": "Official NPTEL accepted answer: a) Use learning rate scheduler. (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Use learning rate scheduler. (Reference: Page 42 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 42",
         "blockId": "block_05"
       },
       {
@@ -3293,9 +3293,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Use weighted cross-entropy or Dice loss",
-        "explanation": "Official NPTEL accepted answer: a) Use weighted cross-entropy or Dice loss. (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Use weighted cross-entropy or Dice loss. (Reference: Page 43 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 43",
         "blockId": "block_05"
       },
       {
@@ -3309,9 +3309,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) 32x32",
-        "explanation": "Official NPTEL accepted answer: a) 32x32. (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) 32x32. (Reference: Page 43 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 43",
         "blockId": "block_05"
       },
       {
@@ -3326,9 +3326,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "28x28",
-        "explanation": "Official NPTEL accepted answer: 28x28. (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: 28x28. (Reference: Page 43 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 43",
         "blockId": "block_05"
       },
       {
@@ -3342,9 +3342,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Discriminator is too strong",
-        "explanation": "Official NPTEL accepted answer: a) Discriminator is too strong. (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Discriminator is too strong. (Reference: Page 43 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 43",
         "blockId": "block_05"
       },
       {
@@ -3356,9 +3356,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) 70%",
-        "explanation": "Official NPTEL accepted answer: a) 70%. (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) 70%. (Reference: Page 44 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 44",
         "blockId": "block_05"
       },
       {
@@ -3373,9 +3373,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "22x22",
-        "explanation": "Official NPTEL accepted answer: 22x22. (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: 22x22. (Reference: Page 44 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 44",
         "blockId": "block_05"
       },
       {
@@ -3389,9 +3389,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Stabilizes training and accelerates convergence",
-        "explanation": "Official NPTEL accepted answer: a) Stabilizes training and accelerates convergence. (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Stabilizes training and accelerates convergence. (Reference: Page 44 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 44",
         "blockId": "block_05"
       },
       {
@@ -3405,9 +3405,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) After 13 epochs",
-        "explanation": "Official NPTEL accepted answer: a) After 13 epochs. (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) After 13 epochs. (Reference: Page 44 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 44",
         "blockId": "block_05"
       },
       {
@@ -3421,9 +3421,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Many neurons die (output always O)",
-        "explanation": "Official NPTEL accepted answer: a) Many neurons die (output always O). (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Many neurons die (output always O). (Reference: Page 44 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 44",
         "blockId": "block_05"
       },
       {
@@ -3437,9 +3437,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Yes",
-        "explanation": "Official NPTEL accepted answer: a) Yes. (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Yes. (Reference: Page 45 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 45",
         "blockId": "block_05"
       },
       {
@@ -3453,9 +3453,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) 16",
-        "explanation": "Official NPTEL accepted answer: a) 16. (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) 16. (Reference: Page 45 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 45",
         "blockId": "block_05"
       },
       {
@@ -3469,9 +3469,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "DUCATton å) Neurons learn same features (no symmetry breaking)",
-        "explanation": "Official NPTEL accepted answer: DUCATton å) Neurons learn same features (no symmetry breaking). (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: DUCATton å) Neurons learn same features (no symmetry breaking). (Reference: Page 45 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 45",
         "blockId": "block_05"
       },
       {
@@ -3485,9 +3485,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Fine-tune last layer(s)",
-        "explanation": "Official NPTEL accepted answer: a) Fine-tune last layer(s). (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Fine-tune last layer(s). (Reference: Page 45 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 45",
         "blockId": "block_05"
       },
       {
@@ -3501,9 +3501,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Adversarial loss",
-        "explanation": "Official NPTEL accepted answer: a) Adversarial loss. (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Adversarial loss. (Reference: Page 46 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 46",
         "blockId": "block_05"
       },
       {
@@ -3518,9 +3518,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "Reduce temporal context",
-        "explanation": "Official NPTEL accepted answer: Reduce temporal context. (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: Reduce temporal context. (Reference: Page 46 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 46",
         "blockId": "block_05"
       },
       {
@@ -3534,9 +3534,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Predicted captions are very similar to reference captions",
-        "explanation": "Official NPTEL accepted answer: a) Predicted captions are very similar to reference captions. (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Predicted captions are very similar to reference captions. (Reference: Page 46 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 46",
         "blockId": "block_05"
       },
       {
@@ -3550,9 +3550,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) 196x768",
-        "explanation": "Official NPTEL accepted answer: a) 196x768. (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) 196x768. (Reference: Page 46 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 46",
         "blockId": "block_05"
       },
       {
@@ -3566,9 +3566,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Improves model robustness to noise",
-        "explanation": "Official NPTEL accepted answer: a) Improves model robustness to noise. (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Improves model robustness to noise. (Reference: Page 46 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 46",
         "blockId": "block_05"
       },
       {
@@ -3582,9 +3582,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) 80% overlap between predicted and ground-truth masks",
-        "explanation": "Official NPTEL accepted answer: a) 80% overlap between predicted and ground-truth masks. (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) 80% overlap between predicted and ground-truth masks. (Reference: Page 47 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 47",
         "blockId": "block_05"
       },
       {
@@ -3598,9 +3598,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Accelerate convergence along relevant directions",
-        "explanation": "Official NPTEL accepted answer: a) Accelerate convergence along relevant directions. (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Accelerate convergence along relevant directions. (Reference: Page 47 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 47",
         "blockId": "block_05"
       },
       {
@@ -3614,9 +3614,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Improves generalization by creating convex combinations of samples",
-        "explanation": "Official NPTEL accepted answer: a) Improves generalization by creating convex combinations of samples. (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Improves generalization by creating convex combinations of samples. (Reference: Page 47 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 47",
         "blockId": "block_05"
       },
       {
@@ -3630,9 +3630,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Promotes sparsity",
-        "explanation": "Official NPTEL accepted answer: a) Promotes sparsity. (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Promotes sparsity. (Reference: Page 47 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 47",
         "blockId": "block_05"
       },
       {
@@ -3646,9 +3646,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "a) Moderate reconstruction quality THIS YEAR ASSIGNMENT c onsider the following gray scale image of size 1600 x 2560(rows x columns) Now, look at row number 800, Which of the following plots show the correct relationship between column number and pixel value corresponding to row 800 a) mon u O b) c) d) 0 c I point CATton Which of the following statements is True Gaussian filter is Separable filter because it is non linear. Median filter is a non separable filter Gaussian filter is a High Pass filter. Mean filter is a non separable filter because it is non linear Score: I Median filter is a non separable filter point Which color space models perceptual uniformity more closer to human vision? RGB CMYK sRGB LAB LAB 1 point Which of the following filters detects vertical edges? *SEDUC/lTton 1) 2) Only 1",
-        "explanation": "Official NPTEL accepted answer: a) Moderate reconstruction quality THIS YEAR ASSIGNMENT c onsider the following gray scale image of size 1600 x 2560(rows x columns) Now, look at row number 800, Which of the following plots show the correct relationship between column number and pixel value corresponding to row 800 a) mon u O b) c) d) 0 c I point CATton Which of the following statements is True Gaussian filter is Separable filter because it is non linear. Median filter is a non separable filter Gaussian filter is a High Pass filter. Mean filter is a non separable filter because it is non linear Score: I Median filter is a non separable filter point Which color space models perceptual uniformity more closer to human vision? RGB CMYK sRGB LAB LAB 1 point Which of the following filters detects vertical edges? *SEDUC/lTton 1) 2) Only 1. (Reference: Pages 41 - 50 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: a) Moderate reconstruction quality THIS YEAR ASSIGNMENT c onsider the following gray scale image of size 1600 x 2560(rows x columns) Now, look at row number 800, Which of the following plots show the correct relationship between column number and pixel value corresponding to row 800 a) mon u O b) c) d) 0 c I point CATton Which of the following statements is True Gaussian filter is Separable filter because it is non linear. Median filter is a non separable filter Gaussian filter is a High Pass filter. Mean filter is a non separable filter because it is non linear Score: I Median filter is a non separable filter point Which color space models perceptual uniformity more closer to human vision? RGB CMYK sRGB LAB LAB 1 point Which of the following filters detects vertical edges? *SEDUC/lTton 1) 2) Only 1. (Reference: Page 47 of course PDF)",
         "topic": "Practical Scenarios, Feature Map Dimensions & Cross-Validation",
-        "pageRange": "Pages 41 - 50",
+        "pageRange": "Page 47",
         "blockId": "block_05"
       }
     ]
@@ -3660,25 +3660,10 @@ window.QUIZ_DATA = [
     "subtitle": "Image Filtering, Noise Removal & Nearest Neighbors (Prog. Assgn 1)",
     "pageRange": "Pages 51 - 60",
     "badge": "Assignment Week 1",
-    "icon": "bi-image",
-    "totalQuestions": 14,
+    "totalQuestions": 13,
     "questions": [
       {
         "id": "b6_q1",
-        "question": "only 2",
-        "options": [
-          "Both 1 and 2",
-          "Neither of these"
-        ],
-        "correctIndex": 0,
-        "acceptedAnswer": "Both I and 2",
-        "explanation": "Official NPTEL accepted answer: Both I and 2. (Reference: Pages 51 - 60 of course PDF)",
-        "topic": "Image Filtering, Noise Removal & Nearest Neighbors (Prog. Assgn 1)",
-        "pageRange": "Pages 51 - 60",
-        "blockId": "block_06"
-      },
-      {
-        "id": "b6_q2",
         "question": "Which of the following is false:",
         "options": [
           "Mean filter is linear and median filter is non-linear",
@@ -3689,13 +3674,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 2,
         "acceptedAnswer": "Gaussian filter is particularly effective at removing salt and pepper noise",
-        "explanation": "Official NPTEL accepted answer: Gaussian filter is particularly effective at removing salt and pepper noise. (Reference: Pages 51 - 60 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: Gaussian filter is particularly effective at removing salt and pepper noise. (Reference: Page 51 of course PDF)",
         "topic": "Image Filtering, Noise Removal & Nearest Neighbors (Prog. Assgn 1)",
-        "pageRange": "Pages 51 - 60",
+        "pageRange": "Page 51",
         "blockId": "block_06"
       },
       {
-        "id": "b6_q3",
+        "id": "b6_q2",
         "question": "For this question, please see Question 1 in the iPython notebook (.ipynb file)",
         "options": [
           "provided alongside. Complete your implementation under the \"YOUR CODE",
@@ -3706,13 +3691,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 6,
         "acceptedAnswer": "4.08, [3.375, 8.375, 13.375]",
-        "explanation": "Official NPTEL accepted answer: 4.08, [3.375, 8.375, 13.375]. (Reference: Pages 51 - 60 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: 4.08, [3.375, 8.375, 13.375]. (Reference: Page 52 of course PDF)",
         "topic": "Image Filtering, Noise Removal & Nearest Neighbors (Prog. Assgn 1)",
-        "pageRange": "Pages 51 - 60",
+        "pageRange": "Page 52",
         "blockId": "block_06"
       },
       {
-        "id": "b6_q4",
+        "id": "b6_q3",
         "question": "For this question, please see Question 2 in the iPython notebook (.ipynb file)",
         "options": [
           "provided alongside. Complete your implementation under the \"YOUR CODE",
@@ -3723,13 +3708,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "Ewnvalue: 4.67513087, Eigenvector",
-        "explanation": "Official NPTEL accepted answer: Ewnvalue: 4.67513087, Eigenvector. (Reference: Pages 51 - 60 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: Ewnvalue: 4.67513087, Eigenvector. (Reference: Page 52 of course PDF)",
         "topic": "Image Filtering, Noise Removal & Nearest Neighbors (Prog. Assgn 1)",
-        "pageRange": "Pages 51 - 60",
+        "pageRange": "Page 52",
         "blockId": "block_06"
       },
       {
-        "id": "b6_q5",
+        "id": "b6_q4",
         "question": "For this question, please see Question 4 in the iPython notebook (.ipynb file)",
         "options": [
           "provided alongside. Complete your implementation under the \"YOUR CODE",
@@ -3740,13 +3725,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "provided alongside. Complete your implementation under the \"YOUR CODE",
-        "explanation": "Official NPTEL accepted answer: provided alongside. Complete your implementation under the \"YOUR CODE. (Reference: Pages 51 - 60 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: provided alongside. Complete your implementation under the \"YOUR CODE. (Reference: Page 53 of course PDF)",
         "topic": "Image Filtering, Noise Removal & Nearest Neighbors (Prog. Assgn 1)",
-        "pageRange": "Pages 51 - 60",
+        "pageRange": "Page 53",
         "blockId": "block_06"
       },
       {
-        "id": "b6_q6",
+        "id": "b6_q5",
         "question": "For this question, please see Question 5 in the iPython notebook (.ipynb file)",
         "options": [
           "provided alongside. Complete your implementation under the \"YOUR CODE",
@@ -3757,13 +3742,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 5,
         "acceptedAnswer": "508,508)",
-        "explanation": "Official NPTEL accepted answer: 508,508). (Reference: Pages 51 - 60 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: 508,508). (Reference: Page 54 of course PDF)",
         "topic": "Image Filtering, Noise Removal & Nearest Neighbors (Prog. Assgn 1)",
-        "pageRange": "Pages 51 - 60",
+        "pageRange": "Page 54",
         "blockId": "block_06"
       },
       {
-        "id": "b6_q7",
+        "id": "b6_q6",
         "question": "Which of the following factor(s) is/are responsible for edges in images?",
         "options": [
           "Surface color/Appearance discontinuity",
@@ -3774,13 +3759,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 3,
         "acceptedAnswer": "All of the above",
-        "explanation": "Official NPTEL accepted answer: All of the above. (Reference: Pages 51 - 60 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: All of the above. (Reference: Page 55 of course PDF)",
         "topic": "Image Filtering, Noise Removal & Nearest Neighbors (Prog. Assgn 1)",
-        "pageRange": "Pages 51 - 60",
+        "pageRange": "Page 55",
         "blockId": "block_06"
       },
       {
-        "id": "b6_q8",
+        "id": "b6_q7",
         "question": "Which of the following is false regarding LOG and DOG?",
         "options": [
           "DOG can be considered an approximation to the LOG",
@@ -3791,13 +3776,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 4,
         "acceptedAnswer": "The LOG kernel is separable, as LOG can be computed using four ID",
-        "explanation": "Official NPTEL accepted answer: The LOG kernel is separable, as LOG can be computed using four ID. (Reference: Pages 51 - 60 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: The LOG kernel is separable, as LOG can be computed using four ID. (Reference: Page 56 of course PDF)",
         "topic": "Image Filtering, Noise Removal & Nearest Neighbors (Prog. Assgn 1)",
-        "pageRange": "Pages 51 - 60",
+        "pageRange": "Page 56",
         "blockId": "block_06"
       },
       {
-        "id": "b6_q9",
+        "id": "b6_q8",
         "question": "Let and 12 be the eigenvalues of the second moment matrix computed from image derivative at a point (x,y). Then which of the following inference can't be",
         "options": [
           "made:",
@@ -3808,13 +3793,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "If RI and 12 have large positive values, then this pixel (x,y) has no features of",
-        "explanation": "Official NPTEL accepted answer: If RI and 12 have large positive values, then this pixel (x,y) has no features of. (Reference: Pages 51 - 60 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: If RI and 12 have large positive values, then this pixel (x,y) has no features of. (Reference: Page 57 of course PDF)",
         "topic": "Image Filtering, Noise Removal & Nearest Neighbors (Prog. Assgn 1)",
-        "pageRange": "Pages 51 - 60",
+        "pageRange": "Page 57",
         "blockId": "block_06"
       },
       {
-        "id": "b6_q10",
+        "id": "b6_q9",
         "question": "Match the following:",
         "options": [
           "1) Gaussian filter",
@@ -3825,13 +3810,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "1) Gaussian filter",
-        "explanation": "Official NPTEL accepted answer: 1) Gaussian filter. (Reference: Pages 51 - 60 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: 1) Gaussian filter. (Reference: Page 58 of course PDF)",
         "topic": "Image Filtering, Noise Removal & Nearest Neighbors (Prog. Assgn 1)",
-        "pageRange": "Pages 51 - 60",
+        "pageRange": "Page 58",
         "blockId": "block_06"
       },
       {
-        "id": "b6_q11",
+        "id": "b6_q10",
         "question": "!dentify the correct sequence of steps in a Canny edge detection pipeline. Steps",
         "options": [
           "are listed below:",
@@ -3842,13 +3827,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "are listed below:",
-        "explanation": "Official NPTEL accepted answer: are listed below:. (Reference: Pages 51 - 60 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: are listed below:. (Reference: Page 59 of course PDF)",
         "topic": "Image Filtering, Noise Removal & Nearest Neighbors (Prog. Assgn 1)",
-        "pageRange": "Pages 51 - 60",
+        "pageRange": "Page 59",
         "blockId": "block_06"
       },
       {
-        "id": "b6_q12",
+        "id": "b6_q11",
         "question": "In terms of computational efficiency, how does the separability of a 2D",
         "options": [
           "convolution kernel affect the filtering process?",
@@ -3859,13 +3844,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 2,
         "acceptedAnswer": "It allows the convolution to be performed as two ID convolutions, which is",
-        "explanation": "Official NPTEL accepted answer: It allows the convolution to be performed as two ID convolutions, which is. (Reference: Pages 51 - 60 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: It allows the convolution to be performed as two ID convolutions, which is. (Reference: Page 59 of course PDF)",
         "topic": "Image Filtering, Noise Removal & Nearest Neighbors (Prog. Assgn 1)",
-        "pageRange": "Pages 51 - 60",
+        "pageRange": "Page 59",
         "blockId": "block_06"
       },
       {
-        "id": "b6_q13",
+        "id": "b6_q12",
         "question": "Which of the following operations is an example of linear filtering?",
         "options": [
           "Thresholding an image",
@@ -3875,13 +3860,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 3,
         "acceptedAnswer": "Applying a Gaussian blur",
-        "explanation": "Official NPTEL accepted answer: Applying a Gaussian blur. (Reference: Pages 51 - 60 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: Applying a Gaussian blur. (Reference: Page 60 of course PDF)",
         "topic": "Image Filtering, Noise Removal & Nearest Neighbors (Prog. Assgn 1)",
-        "pageRange": "Pages 51 - 60",
+        "pageRange": "Page 60",
         "blockId": "block_06"
       },
       {
-        "id": "b6_q14",
+        "id": "b6_q13",
         "question": "What is the purpose of creating a scale space in SIFT?",
         "options": [
           "To remove noise from the image",
@@ -3892,9 +3877,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "To detect features at different scales",
-        "explanation": "Official NPTEL accepted answer: To detect features at different scales. (Reference: Pages 51 - 60 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: To detect features at different scales. (Reference: Page 60 of course PDF)",
         "topic": "Image Filtering, Noise Removal & Nearest Neighbors (Prog. Assgn 1)",
-        "pageRange": "Pages 51 - 60",
+        "pageRange": "Page 60",
         "blockId": "block_06"
       }
     ]
@@ -3906,8 +3891,7 @@ window.QUIZ_DATA = [
     "subtitle": "Point Operations, Filtering & Perceptrons (Prog. Assgn 2)",
     "pageRange": "Pages 61 - 70",
     "badge": "Assignment Week 3",
-    "icon": "bi-diagram-3",
-    "totalQuestions": 11,
+    "totalQuestions": 12,
     "questions": [
       {
         "id": "b7_q1",
@@ -3921,9 +3905,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 7,
         "acceptedAnswer": "only 2",
-        "explanation": "Official NPTEL accepted answer: only 2. (Reference: Pages 61 - 70 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: only 2. (Reference: Page 61 of course PDF)",
         "topic": "Point Operations, Filtering & Perceptrons (Prog. Assgn 2)",
-        "pageRange": "Pages 61 - 70",
+        "pageRange": "Page 61",
         "blockId": "block_07"
       },
       {
@@ -3938,9 +3922,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 6,
         "acceptedAnswer": "Denoising an image through the moving average filter is an example of global",
-        "explanation": "Official NPTEL accepted answer: Denoising an image through the moving average filter is an example of global. (Reference: Pages 61 - 70 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: Denoising an image through the moving average filter is an example of global. (Reference: Page 61 of course PDF)",
         "topic": "Point Operations, Filtering & Perceptrons (Prog. Assgn 2)",
-        "pageRange": "Pages 61 - 70",
+        "pageRange": "Page 61",
         "blockId": "block_07"
       },
       {
@@ -3955,9 +3939,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "Both A and R are true, and R is the correct explanation ofA.",
-        "explanation": "Official NPTEL accepted answer: Both A and R are true, and R is the correct explanation ofA.. (Reference: Pages 61 - 70 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: Both A and R are true, and R is the correct explanation ofA.. (Reference: Page 62 of course PDF)",
         "topic": "Point Operations, Filtering & Perceptrons (Prog. Assgn 2)",
-        "pageRange": "Pages 61 - 70",
+        "pageRange": "Page 62",
         "blockId": "block_07"
       },
       {
@@ -3971,9 +3955,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 3,
         "acceptedAnswer": "Scale, rotation, and illumination changes",
-        "explanation": "Official NPTEL accepted answer: Scale, rotation, and illumination changes. (Reference: Pages 61 - 70 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: Scale, rotation, and illumination changes. (Reference: Page 62 of course PDF)",
         "topic": "Point Operations, Filtering & Perceptrons (Prog. Assgn 2)",
-        "pageRange": "Pages 61 - 70",
+        "pageRange": "Page 62",
         "blockId": "block_07"
       },
       {
@@ -3988,9 +3972,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "Blob detection finds regions, while corner detection finds points",
-        "explanation": "Official NPTEL accepted answer: Blob detection finds regions, while corner detection finds points. (Reference: Pages 61 - 70 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: Blob detection finds regions, while corner detection finds points. (Reference: Page 63 of course PDF)",
         "topic": "Point Operations, Filtering & Perceptrons (Prog. Assgn 2)",
-        "pageRange": "Pages 61 - 70",
+        "pageRange": "Page 63",
         "blockId": "block_07"
       },
       {
@@ -4005,9 +3989,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 4,
         "acceptedAnswer": "13",
-        "explanation": "Official NPTEL accepted answer: 13. (Reference: Pages 61 - 70 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: 13. (Reference: Page 63 of course PDF)",
         "topic": "Point Operations, Filtering & Perceptrons (Prog. Assgn 2)",
-        "pageRange": "Pages 61 - 70",
+        "pageRange": "Page 63",
         "blockId": "block_07"
       },
       {
@@ -4022,9 +4006,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 8,
         "acceptedAnswer": "All of the above",
-        "explanation": "Official NPTEL accepted answer: All of the above. (Reference: Pages 61 - 70 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: All of the above. (Reference: Page 65 of course PDF)",
         "topic": "Point Operations, Filtering & Perceptrons (Prog. Assgn 2)",
-        "pageRange": "Pages 61 - 70",
+        "pageRange": "Page 65",
         "blockId": "block_07"
       },
       {
@@ -4036,9 +4020,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "point",
-        "explanation": "Official NPTEL accepted answer: point. (Reference: Pages 61 - 70 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: point. (Reference: Page 65 of course PDF)",
         "topic": "Point Operations, Filtering & Perceptrons (Prog. Assgn 2)",
-        "pageRange": "Pages 61 - 70",
+        "pageRange": "Page 65",
         "blockId": "block_07"
       },
       {
@@ -4053,9 +4037,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 4,
         "acceptedAnswer": "880",
-        "explanation": "Official NPTEL accepted answer: 880. (Reference: Pages 61 - 70 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: 880. (Reference: Page 67 of course PDF)",
         "topic": "Point Operations, Filtering & Perceptrons (Prog. Assgn 2)",
-        "pageRange": "Pages 61 - 70",
+        "pageRange": "Page 67",
         "blockId": "block_07"
       },
       {
@@ -4070,9 +4054,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "61%",
-        "explanation": "Official NPTEL accepted answer: 61%. (Reference: Pages 61 - 70 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: 61%. (Reference: Page 68 of course PDF)",
         "topic": "Point Operations, Filtering & Perceptrons (Prog. Assgn 2)",
-        "pageRange": "Pages 61 - 70",
+        "pageRange": "Page 68",
         "blockId": "block_07"
       },
       {
@@ -4087,9 +4071,26 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "15%",
-        "explanation": "Official NPTEL accepted answer: 15%. (Reference: Pages 61 - 70 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: 15%. (Reference: Page 68 of course PDF)",
         "topic": "Point Operations, Filtering & Perceptrons (Prog. Assgn 2)",
-        "pageRange": "Pages 61 - 70",
+        "pageRange": "Page 68",
+        "blockId": "block_07"
+      },
+      {
+        "id": "b7_q12",
+        "question": "Parameter sharing (i.e. a feature detector that is useful for one part of the image",
+        "options": [
+          "is probably useful for another part of the image too) is one of the benefits of",
+          "using convolutional networks. Among the following options given below, select/",
+          "the true statements about parameter sharing in ConvNets. Select all possible",
+          "answers:",
+          "It reduces the total number of parameters, thus reducing overfitting"
+        ],
+        "correctIndex": 4,
+        "acceptedAnswer": "It reduces the total number of parameters, thus reducing overfitting",
+        "explanation": "Official NPTEL accepted answer: It reduces the total number of parameters, thus reducing overfitting. (Reference: Page 70 of course PDF)",
+        "topic": "Point Operations, Filtering & Perceptrons (Prog. Assgn 2)",
+        "pageRange": "Page 70",
         "blockId": "block_07"
       }
     ]
@@ -4101,27 +4102,10 @@ window.QUIZ_DATA = [
     "subtitle": "Backpropagation, Weight Sharing & Computational Graphs",
     "pageRange": "Pages 71 - 80",
     "badge": "Assignment Week 4",
-    "icon": "bi-share",
     "totalQuestions": 14,
     "questions": [
       {
         "id": "b8_q1",
-        "question": "None of the above",
-        "options": [
-          "It reduces the total number of parameters, thus reducing overfitting",
-          "Option A (Alternative formulation)",
-          "Option B (Incorrect derivative)",
-          "None of the above"
-        ],
-        "correctIndex": 0,
-        "acceptedAnswer": "It reduces the total number of parameters, thus reducing overfitting",
-        "explanation": "Official NPTEL accepted answer: It reduces the total number of parameters, thus reducing overfitting. (Reference: Pages 71 - 80 of course PDF)",
-        "topic": "Backpropagation, Weight Sharing & Computational Graphs",
-        "pageRange": "Pages 71 - 80",
-        "blockId": "block_08"
-      },
-      {
-        "id": "b8_q2",
         "question": "Weight sharing allows CNNs to deal with image data without using too many parameters. Select the correct option from below with respect to weight sharing.",
         "options": [
           "Weight sharing increases bias",
@@ -4131,13 +4115,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "Weight sharing increases bias",
-        "explanation": "Official NPTEL accepted answer: Weight sharing increases bias. (Reference: Pages 71 - 80 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: Weight sharing increases bias. (Reference: Page 71 of course PDF)",
         "topic": "Backpropagation, Weight Sharing & Computational Graphs",
-        "pageRange": "Pages 71 - 80",
+        "pageRange": "Page 71",
         "blockId": "block_08"
       },
       {
-        "id": "b8_q3",
+        "id": "b8_q2",
         "question": "For a neural network f, let Wij be the weight connecting neurons ai in hidden",
         "options": [
           "layer-I to bj in adjacent hidden layer-2. Consider the following statements:",
@@ -4148,13 +4132,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 6,
         "acceptedAnswer": "Statement-I is true but Statement-2 is false",
-        "explanation": "Official NPTEL accepted answer: Statement-I is true but Statement-2 is false. (Reference: Pages 71 - 80 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: Statement-I is true but Statement-2 is false. (Reference: Page 72 of course PDF)",
         "topic": "Backpropagation, Weight Sharing & Computational Graphs",
-        "pageRange": "Pages 71 - 80",
+        "pageRange": "Page 72",
         "blockId": "block_08"
       },
       {
-        "id": "b8_q4",
+        "id": "b8_q3",
         "question": "Which of the following statements are true? (Select all that apply)",
         "options": [
           "Sigmoid activation function 6(•) can be represented in terms of tanh activation",
@@ -4165,13 +4149,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 3,
         "acceptedAnswer": "The derivative of the sigmoid activation function is symmetric around the y-axis",
-        "explanation": "Official NPTEL accepted answer: The derivative of the sigmoid activation function is symmetric around the y-axis. (Reference: Pages 71 - 80 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: The derivative of the sigmoid activation function is symmetric around the y-axis. (Reference: Page 72 of course PDF)",
         "topic": "Backpropagation, Weight Sharing & Computational Graphs",
-        "pageRange": "Pages 71 - 80",
+        "pageRange": "Page 72",
         "blockId": "block_08"
       },
       {
-        "id": "b8_q5",
+        "id": "b8_q4",
         "question": "Consider two ima es x1 and x2 such",
         "options": [
           "that 241377412{1] I and 108261232861] l. Their corresponding one-",
@@ -4182,13 +4166,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "[II 6.86.41.64.810.04.62.89.66.01]",
-        "explanation": "Official NPTEL accepted answer: [II 6.86.41.64.810.04.62.89.66.01]. (Reference: Pages 71 - 80 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: [II 6.86.41.64.810.04.62.89.66.01]. (Reference: Page 73 of course PDF)",
         "topic": "Backpropagation, Weight Sharing & Computational Graphs",
-        "pageRange": "Pages 71 - 80",
+        "pageRange": "Page 73",
         "blockId": "block_08"
       },
       {
-        "id": "b8_q6",
+        "id": "b8_q5",
         "question": "Given an input image of shape (10,10,3), you want to use one of the two",
         "options": [
           "following layers:",
@@ -4199,13 +4183,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 10,
         "acceptedAnswer": "None of the above",
-        "explanation": "Official NPTEL accepted answer: None of the above. (Reference: Pages 71 - 80 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: None of the above. (Reference: Page 74 of course PDF)",
         "topic": "Backpropagation, Weight Sharing & Computational Graphs",
-        "pageRange": "Pages 71 - 80",
+        "pageRange": "Page 74",
         "blockId": "block_08"
       },
       {
-        "id": "b8_q7",
+        "id": "b8_q6",
         "question": "Which of the following statements is false?",
         "options": [
           "non",
@@ -4216,13 +4200,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 5,
         "acceptedAnswer": "The number of feature maps obtained after a convolution operation depends on",
-        "explanation": "Official NPTEL accepted answer: The number of feature maps obtained after a convolution operation depends on. (Reference: Pages 71 - 80 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: The number of feature maps obtained after a convolution operation depends on. (Reference: Page 74 of course PDF)",
         "topic": "Backpropagation, Weight Sharing & Computational Graphs",
-        "pageRange": "Pages 71 - 80",
+        "pageRange": "Page 74",
         "blockId": "block_08"
       },
       {
-        "id": "b8_q8",
+        "id": "b8_q7",
         "question": "Assume that the feature map given below is generated from a convolution layer",
         "options": [
           "in CNN, after which a 2 x 2 Max Pooling layer with a stride 2 is applied to it.",
@@ -4233,13 +4217,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 21,
         "acceptedAnswer": "ype: Numeric) 8",
-        "explanation": "Official NPTEL accepted answer: ype: Numeric) 8. (Reference: Pages 71 - 80 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: ype: Numeric) 8. (Reference: Page 76 of course PDF)",
         "topic": "Backpropagation, Weight Sharing & Computational Graphs",
-        "pageRange": "Pages 71 - 80",
+        "pageRange": "Page 76",
         "blockId": "block_08"
       },
       {
-        "id": "b8_q9",
+        "id": "b8_q8",
         "question": "Location (l ,4):",
         "options": [
           "(Ijpe: Numeric) IO",
@@ -4249,13 +4233,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "(Ijpe: Numeric) IO",
-        "explanation": "Official NPTEL accepted answer: (Ijpe: Numeric) IO. (Reference: Pages 71 - 80 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: (Ijpe: Numeric) IO. (Reference: Page 77 of course PDF)",
         "topic": "Backpropagation, Weight Sharing & Computational Graphs",
-        "pageRange": "Pages 71 - 80",
+        "pageRange": "Page 77",
         "blockId": "block_08"
       },
       {
-        "id": "b8_q10",
+        "id": "b8_q9",
         "question": "Location (4,3):",
         "options": [
           "ype: Numeric) 0",
@@ -4265,13 +4249,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "ype: Numeric) 0",
-        "explanation": "Official NPTEL accepted answer: ype: Numeric) 0. (Reference: Pages 71 - 80 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: ype: Numeric) 0. (Reference: Page 78 of course PDF)",
         "topic": "Backpropagation, Weight Sharing & Computational Graphs",
-        "pageRange": "Pages 71 - 80",
+        "pageRange": "Page 78",
         "blockId": "block_08"
       },
       {
-        "id": "b8_q11",
+        "id": "b8_q10",
         "question": "For the same previous question, assign the appropriate gradient value for the",
         "options": [
           "locations at feature map but use Average Pooling layer instead of Max Pooling",
@@ -4281,13 +4265,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "(Ijpe: Numeric) 2",
-        "explanation": "Official NPTEL accepted answer: (Ijpe: Numeric) 2. (Reference: Pages 71 - 80 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: (Ijpe: Numeric) 2. (Reference: Page 78 of course PDF)",
         "topic": "Backpropagation, Weight Sharing & Computational Graphs",
-        "pageRange": "Pages 71 - 80",
+        "pageRange": "Page 78",
         "blockId": "block_08"
       },
       {
-        "id": "b8_q12",
+        "id": "b8_q11",
         "question": "Location (3, I):",
         "options": [
           "ype: Numeric) 3.5",
@@ -4297,13 +4281,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "ype: Numeric) 3.5",
-        "explanation": "Official NPTEL accepted answer: ype: Numeric) 3.5. (Reference: Pages 71 - 80 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: ype: Numeric) 3.5. (Reference: Page 79 of course PDF)",
         "topic": "Backpropagation, Weight Sharing & Computational Graphs",
-        "pageRange": "Pages 71 - 80",
+        "pageRange": "Page 79",
         "blockId": "block_08"
       },
       {
-        "id": "b8_q13",
+        "id": "b8_q12",
         "question": "Location (4,3):",
         "options": [
           "(Ijpe: Numeric) 0.5",
@@ -4313,13 +4297,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "(Ijpe: Numeric) 0.5",
-        "explanation": "Official NPTEL accepted answer: (Ijpe: Numeric) 0.5. (Reference: Pages 71 - 80 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: (Ijpe: Numeric) 0.5. (Reference: Page 79 of course PDF)",
         "topic": "Backpropagation, Weight Sharing & Computational Graphs",
-        "pageRange": "Pages 71 - 80",
+        "pageRange": "Page 79",
         "blockId": "block_08"
       },
       {
-        "id": "b8_q14",
+        "id": "b8_q13",
         "question": "Which of the following statements is false? For a fixed padding, the bigger the size of the kernel, the smaller is the output",
         "options": [
           "after convolution.",
@@ -4330,9 +4314,26 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 3,
         "acceptedAnswer": "The number of feature maps obtained after a convolution operation depends on",
-        "explanation": "Official NPTEL accepted answer: The number of feature maps obtained after a convolution operation depends on. (Reference: Pages 71 - 80 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: The number of feature maps obtained after a convolution operation depends on. (Reference: Page 80 of course PDF)",
         "topic": "Backpropagation, Weight Sharing & Computational Graphs",
-        "pageRange": "Pages 71 - 80",
+        "pageRange": "Page 80",
+        "blockId": "block_08"
+      },
+      {
+        "id": "b8_q14",
+        "question": "Match the following",
+        "options": [
+          "1) CNN",
+          "2) FNN",
+          "i) gradient computation using chain rule of calculus",
+          "ii) sparse connectivity",
+          "iii) less number of parameters"
+        ],
+        "correctIndex": 0,
+        "acceptedAnswer": "1) CNN",
+        "explanation": "Official NPTEL accepted answer: 1) CNN. (Reference: Page 80 of course PDF)",
+        "topic": "Backpropagation, Weight Sharing & Computational Graphs",
+        "pageRange": "Page 80",
         "blockId": "block_08"
       }
     ]
@@ -4344,7 +4345,6 @@ window.QUIZ_DATA = [
     "subtitle": "Pooling Layers, Strides, Receptive Field & CNN Architectures",
     "pageRange": "Pages 81 - 90",
     "badge": "Assignment Week 5",
-    "icon": "bi-grid-3x3",
     "totalQuestions": 9,
     "questions": [
       {
@@ -4359,9 +4359,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "e number of learnable parameters in pooling layer is O.",
-        "explanation": "Official NPTEL accepted answer: e number of learnable parameters in pooling layer is O.. (Reference: Pages 81 - 90 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: e number of learnable parameters in pooling layer is O.. (Reference: Page 81 of course PDF)",
         "topic": "Pooling Layers, Strides, Receptive Field & CNN Architectures",
-        "pageRange": "Pages 81 - 90",
+        "pageRange": "Page 81",
         "blockId": "block_09"
       },
       {
@@ -4376,9 +4376,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "99%",
-        "explanation": "Official NPTEL accepted answer: 99%. (Reference: Pages 81 - 90 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: 99%. (Reference: Page 83 of course PDF)",
         "topic": "Pooling Layers, Strides, Receptive Field & CNN Architectures",
-        "pageRange": "Pages 81 - 90",
+        "pageRange": "Page 83",
         "blockId": "block_09"
       },
       {
@@ -4393,9 +4393,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 4,
         "acceptedAnswer": ".0042",
-        "explanation": "Official NPTEL accepted answer: .0042. (Reference: Pages 81 - 90 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: .0042. (Reference: Page 83 of course PDF)",
         "topic": "Pooling Layers, Strides, Receptive Field & CNN Architectures",
-        "pageRange": "Pages 81 - 90",
+        "pageRange": "Page 83",
         "blockId": "block_09"
       },
       {
@@ -4410,9 +4410,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "provided alongside. Complete your implementation under the \"YOUR CODE",
-        "explanation": "Official NPTEL accepted answer: provided alongside. Complete your implementation under the \"YOUR CODE. (Reference: Pages 81 - 90 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: provided alongside. Complete your implementation under the \"YOUR CODE. (Reference: Page 84 of course PDF)",
         "topic": "Pooling Layers, Strides, Receptive Field & CNN Architectures",
-        "pageRange": "Pages 81 - 90",
+        "pageRange": "Page 84",
         "blockId": "block_09"
       },
       {
@@ -4427,9 +4427,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 6,
         "acceptedAnswer": "3",
-        "explanation": "Official NPTEL accepted answer: 3. (Reference: Pages 81 - 90 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: 3. (Reference: Page 84 of course PDF)",
         "topic": "Pooling Layers, Strides, Receptive Field & CNN Architectures",
-        "pageRange": "Pages 81 - 90",
+        "pageRange": "Page 84",
         "blockId": "block_09"
       },
       {
@@ -4444,9 +4444,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 3,
         "acceptedAnswer": "32, 1, 5, 5)",
-        "explanation": "Official NPTEL accepted answer: 32, 1, 5, 5). (Reference: Pages 81 - 90 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: 32, 1, 5, 5). (Reference: Page 85 of course PDF)",
         "topic": "Pooling Layers, Strides, Receptive Field & CNN Architectures",
-        "pageRange": "Pages 81 - 90",
+        "pageRange": "Page 85",
         "blockId": "block_09"
       },
       {
@@ -4461,9 +4461,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "By changing the weighted combinations ofcertain activation maps, we can get",
-        "explanation": "Official NPTEL accepted answer: By changing the weighted combinations ofcertain activation maps, we can get. (Reference: Pages 81 - 90 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: By changing the weighted combinations ofcertain activation maps, we can get. (Reference: Page 86 of course PDF)",
         "topic": "Pooling Layers, Strides, Receptive Field & CNN Architectures",
-        "pageRange": "Pages 81 - 90",
+        "pageRange": "Page 86",
         "blockId": "block_09"
       },
       {
@@ -4478,9 +4478,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "ii) CSPDarknet backbone",
-        "explanation": "Official NPTEL accepted answer: ii) CSPDarknet backbone. (Reference: Pages 81 - 90 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: ii) CSPDarknet backbone. (Reference: Page 88 of course PDF)",
         "topic": "Pooling Layers, Strides, Receptive Field & CNN Architectures",
-        "pageRange": "Pages 81 - 90",
+        "pageRange": "Page 88",
         "blockId": "block_09"
       },
       {
@@ -4495,9 +4495,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 8,
         "acceptedAnswer": "ConvNEXT replaces the traditional ResNet bottleneck block with a modified",
-        "explanation": "Official NPTEL accepted answer: ConvNEXT replaces the traditional ResNet bottleneck block with a modified. (Reference: Pages 81 - 90 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: ConvNEXT replaces the traditional ResNet bottleneck block with a modified. (Reference: Page 89 of course PDF)",
         "topic": "Pooling Layers, Strides, Receptive Field & CNN Architectures",
-        "pageRange": "Pages 81 - 90",
+        "pageRange": "Page 89",
         "blockId": "block_09"
       }
     ]
@@ -4509,8 +4509,7 @@ window.QUIZ_DATA = [
     "subtitle": "Object Detection Evaluation, Precision-Recall & mAP Calculation",
     "pageRange": "Pages 91 - 100",
     "badge": "Assignment Week 7",
-    "icon": "bi-bounding-box",
-    "totalQuestions": 13,
+    "totalQuestions": 14,
     "questions": [
       {
         "id": "b10_q1",
@@ -4524,9 +4523,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "I) Instance Segmentation",
-        "explanation": "Official NPTEL accepted answer: I) Instance Segmentation. (Reference: Pages 91 - 100 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: I) Instance Segmentation. (Reference: Page 91 of course PDF)",
         "topic": "Object Detection Evaluation, Precision-Recall & mAP Calculation",
-        "pageRange": "Pages 91 - 100",
+        "pageRange": "Page 91",
         "blockId": "block_10"
       },
       {
@@ -4541,9 +4540,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "DenseNet only connects each layer to the last layer in a feedforvvardfashion to",
-        "explanation": "Official NPTEL accepted answer: DenseNet only connects each layer to the last layer in a feedforvvardfashion to. (Reference: Pages 91 - 100 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: DenseNet only connects each layer to the last layer in a feedforvvardfashion to. (Reference: Page 92 of course PDF)",
         "topic": "Object Detection Evaluation, Precision-Recall & mAP Calculation",
-        "pageRange": "Pages 91 - 100",
+        "pageRange": "Page 92",
         "blockId": "block_10"
       },
       {
@@ -4558,9 +4557,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "Fast R-CNN",
-        "explanation": "Official NPTEL accepted answer: Fast R-CNN. (Reference: Pages 91 - 100 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: Fast R-CNN. (Reference: Page 92 of course PDF)",
         "topic": "Object Detection Evaluation, Precision-Recall & mAP Calculation",
-        "pageRange": "Pages 91 - 100",
+        "pageRange": "Page 92",
         "blockId": "block_10"
       },
       {
@@ -4574,9 +4573,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 2,
         "acceptedAnswer": "28%",
-        "explanation": "Official NPTEL accepted answer: 28%. (Reference: Pages 91 - 100 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: 28%. (Reference: Page 93 of course PDF)",
         "topic": "Object Detection Evaluation, Precision-Recall & mAP Calculation",
-        "pageRange": "Pages 91 - 100",
+        "pageRange": "Page 93",
         "blockId": "block_10"
       },
       {
@@ -4591,9 +4590,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "[1138161019281227451]1",
-        "explanation": "Official NPTEL accepted answer: [1138161019281227451]1. (Reference: Pages 91 - 100 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: [1138161019281227451]1. (Reference: Page 93 of course PDF)",
         "topic": "Object Detection Evaluation, Precision-Recall & mAP Calculation",
-        "pageRange": "Pages 91 - 100",
+        "pageRange": "Page 93",
         "blockId": "block_10"
       },
       {
@@ -4608,9 +4607,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "For transfer learning, if the source and target datasets are dissimilar and the",
-        "explanation": "Official NPTEL accepted answer: For transfer learning, if the source and target datasets are dissimilar and the. (Reference: Pages 91 - 100 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: For transfer learning, if the source and target datasets are dissimilar and the. (Reference: Page 93 of course PDF)",
         "topic": "Object Detection Evaluation, Precision-Recall & mAP Calculation",
-        "pageRange": "Pages 91 - 100",
+        "pageRange": "Page 93",
         "blockId": "block_10"
       },
       {
@@ -4624,9 +4623,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "ype: Numeric) 6553600",
-        "explanation": "Official NPTEL accepted answer: ype: Numeric) 6553600. (Reference: Pages 91 - 100 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: ype: Numeric) 6553600. (Reference: Page 95 of course PDF)",
         "topic": "Object Detection Evaluation, Precision-Recall & mAP Calculation",
-        "pageRange": "Pages 91 - 100",
+        "pageRange": "Page 95",
         "blockId": "block_10"
       },
       {
@@ -4641,9 +4640,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 3,
         "acceptedAnswer": "Region proposal network in Faster-RCNN consists of classification and",
-        "explanation": "Official NPTEL accepted answer: Region proposal network in Faster-RCNN consists of classification and. (Reference: Pages 91 - 100 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: Region proposal network in Faster-RCNN consists of classification and. (Reference: Page 96 of course PDF)",
         "topic": "Object Detection Evaluation, Precision-Recall & mAP Calculation",
-        "pageRange": "Pages 91 - 100",
+        "pageRange": "Page 96",
         "blockId": "block_10"
       },
       {
@@ -4658,9 +4657,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 4,
         "acceptedAnswer": "All classification-based loss functions strive to enforce Iow inter-class distances.",
-        "explanation": "Official NPTEL accepted answer: All classification-based loss functions strive to enforce Iow inter-class distances.. (Reference: Pages 91 - 100 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: All classification-based loss functions strive to enforce Iow inter-class distances.. (Reference: Page 97 of course PDF)",
         "topic": "Object Detection Evaluation, Precision-Recall & mAP Calculation",
-        "pageRange": "Pages 91 - 100",
+        "pageRange": "Page 97",
         "blockId": "block_10"
       },
       {
@@ -4675,9 +4674,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 6,
         "acceptedAnswer": "CATton",
-        "explanation": "Official NPTEL accepted answer: CATton. (Reference: Pages 91 - 100 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: CATton. (Reference: Page 98 of course PDF)",
         "topic": "Object Detection Evaluation, Precision-Recall & mAP Calculation",
-        "pageRange": "Pages 91 - 100",
+        "pageRange": "Page 98",
         "blockId": "block_10"
       },
       {
@@ -4692,9 +4691,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 5,
         "acceptedAnswer": "5313, 37465641, 25108243",
-        "explanation": "Official NPTEL accepted answer: 5313, 37465641, 25108243. (Reference: Pages 91 - 100 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: 5313, 37465641, 25108243. (Reference: Page 99 of course PDF)",
         "topic": "Object Detection Evaluation, Precision-Recall & mAP Calculation",
-        "pageRange": "Pages 91 - 100",
+        "pageRange": "Page 99",
         "blockId": "block_10"
       },
       {
@@ -4709,9 +4708,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 6,
         "acceptedAnswer": ".8417",
-        "explanation": "Official NPTEL accepted answer: .8417. (Reference: Pages 91 - 100 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: .8417. (Reference: Page 99 of course PDF)",
         "topic": "Object Detection Evaluation, Precision-Recall & mAP Calculation",
-        "pageRange": "Pages 91 - 100",
+        "pageRange": "Page 99",
         "blockId": "block_10"
       },
       {
@@ -4726,9 +4725,26 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 3,
         "acceptedAnswer": "0.5018",
-        "explanation": "Official NPTEL accepted answer: 0.5018. (Reference: Pages 91 - 100 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: 0.5018. (Reference: Page 100 of course PDF)",
         "topic": "Object Detection Evaluation, Precision-Recall & mAP Calculation",
-        "pageRange": "Pages 91 - 100",
+        "pageRange": "Page 100",
+        "blockId": "block_10"
+      },
+      {
+        "id": "b10_q14",
+        "question": "For this question, please see Question 4 in the iPython notebook (.ipynb file)",
+        "options": [
+          "provided alongside. Complete your implementation under the \"YOUR CODE",
+          "STARTS HERE\" segment therein. How many parameters are there in the",
+          "model?",
+          "117",
+          "207"
+        ],
+        "correctIndex": 5,
+        "acceptedAnswer": "166",
+        "explanation": "Official NPTEL accepted answer: 166. (Reference: Page 100 of course PDF)",
+        "topic": "Object Detection Evaluation, Precision-Recall & mAP Calculation",
+        "pageRange": "Page 100",
         "blockId": "block_10"
       }
     ]
@@ -4740,8 +4756,7 @@ window.QUIZ_DATA = [
     "subtitle": "Semantic Segmentation, ResNet & Transposed Convolutions",
     "pageRange": "Pages 101 - 110",
     "badge": "Assignment Week 8",
-    "icon": "bi-aspect-ratio",
-    "totalQuestions": 9,
+    "totalQuestions": 10,
     "questions": [
       {
         "id": "b11_q1",
@@ -4755,9 +4770,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 5,
         "acceptedAnswer": "0.0971",
-        "explanation": "Official NPTEL accepted answer: 0.0971. (Reference: Pages 101 - 110 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: 0.0971. (Reference: Page 101 of course PDF)",
         "topic": "Semantic Segmentation, ResNet & Transposed Convolutions",
-        "pageRange": "Pages 101 - 110",
+        "pageRange": "Page 101",
         "blockId": "block_11"
       },
       {
@@ -4772,9 +4787,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 6,
         "acceptedAnswer": "0.0975",
-        "explanation": "Official NPTEL accepted answer: 0.0975. (Reference: Pages 101 - 110 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: 0.0975. (Reference: Page 101 of course PDF)",
         "topic": "Semantic Segmentation, ResNet & Transposed Convolutions",
-        "pageRange": "Pages 101 - 110",
+        "pageRange": "Page 101",
         "blockId": "block_11"
       },
       {
@@ -4789,9 +4804,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 4,
         "acceptedAnswer": "vl+2v2+v34,v2",
-        "explanation": "Official NPTEL accepted answer: vl+2v2+v34,v2. (Reference: Pages 101 - 110 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: vl+2v2+v34,v2. (Reference: Page 104 of course PDF)",
         "topic": "Semantic Segmentation, ResNet & Transposed Convolutions",
-        "pageRange": "Pages 101 - 110",
+        "pageRange": "Page 104",
         "blockId": "block_11"
       },
       {
@@ -4806,9 +4821,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 4,
         "acceptedAnswer": "In an RNN, the current hidden state ht not only depends on the previous hidden",
-        "explanation": "Official NPTEL accepted answer: In an RNN, the current hidden state ht not only depends on the previous hidden. (Reference: Pages 101 - 110 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: In an RNN, the current hidden state ht not only depends on the previous hidden. (Reference: Page 105 of course PDF)",
         "topic": "Semantic Segmentation, ResNet & Transposed Convolutions",
-        "pageRange": "Pages 101 - 110",
+        "pageRange": "Page 105",
         "blockId": "block_11"
       },
       {
@@ -4823,9 +4838,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 6,
         "acceptedAnswer": "None of the above",
-        "explanation": "Official NPTEL accepted answer: None of the above. (Reference: Pages 101 - 110 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: None of the above. (Reference: Page 105 of course PDF)",
         "topic": "Semantic Segmentation, ResNet & Transposed Convolutions",
-        "pageRange": "Pages 101 - 110",
+        "pageRange": "Page 105",
         "blockId": "block_11"
       },
       {
@@ -4840,9 +4855,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "I point",
-        "explanation": "Official NPTEL accepted answer: I point. (Reference: Pages 101 - 110 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: I point. (Reference: Page 106 of course PDF)",
         "topic": "Semantic Segmentation, ResNet & Transposed Convolutions",
-        "pageRange": "Pages 101 - 110",
+        "pageRange": "Page 106",
         "blockId": "block_11"
       },
       {
@@ -4857,9 +4872,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "score functions:",
-        "explanation": "Official NPTEL accepted answer: score functions:. (Reference: Pages 101 - 110 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: score functions:. (Reference: Page 107 of course PDF)",
         "topic": "Semantic Segmentation, ResNet & Transposed Convolutions",
-        "pageRange": "Pages 101 - 110",
+        "pageRange": "Page 107",
         "blockId": "block_11"
       },
       {
@@ -4874,9 +4889,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 6,
         "acceptedAnswer": "Long sentences give rise to the vanishing gradient problem",
-        "explanation": "Official NPTEL accepted answer: Long sentences give rise to the vanishing gradient problem. (Reference: Pages 101 - 110 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: Long sentences give rise to the vanishing gradient problem. (Reference: Page 108 of course PDF)",
         "topic": "Semantic Segmentation, ResNet & Transposed Convolutions",
-        "pageRange": "Pages 101 - 110",
+        "pageRange": "Page 108",
         "blockId": "block_11"
       },
       {
@@ -4890,9 +4905,26 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "(Ijpe: Numeric) 65536",
-        "explanation": "Official NPTEL accepted answer: (Ijpe: Numeric) 65536. (Reference: Pages 101 - 110 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: (Ijpe: Numeric) 65536. (Reference: Page 109 of course PDF)",
         "topic": "Semantic Segmentation, ResNet & Transposed Convolutions",
-        "pageRange": "Pages 101 - 110",
+        "pageRange": "Page 109",
+        "blockId": "block_11"
+      },
+      {
+        "id": "b11_q10",
+        "question": "Consider an LSTM cell, and the data given below:",
+        "options": [
+          "xt =3",
+          "In-I-2",
+          "bf=O",
+          "bi=-l",
+          "wo-[-l .2,-0.2]"
+        ],
+        "correctIndex": 0,
+        "acceptedAnswer": "ype: Range) 0.679,().699",
+        "explanation": "Official NPTEL accepted answer: ype: Range) 0.679,().699. (Reference: Page 110 of course PDF)",
+        "topic": "Semantic Segmentation, ResNet & Transposed Convolutions",
+        "pageRange": "Page 110",
         "blockId": "block_11"
       }
     ]
@@ -4904,28 +4936,10 @@ window.QUIZ_DATA = [
     "subtitle": "Recurrent Vision, LSTM Gate Equations & Numerical Gates",
     "pageRange": "Pages 111 - 120",
     "badge": "Assignment Week 9",
-    "icon": "bi-arrow-repeat",
-    "totalQuestions": 9,
+    "totalQuestions": 8,
     "questions": [
       {
         "id": "b12_q1",
-        "question": "In-I-2",
-        "options": [
-          "bf=O",
-          "bi=-l",
-          "wo-[-l .2,-0.2]",
-          "bo=1.5",
-          "bC=0.5"
-        ],
-        "correctIndex": 0,
-        "acceptedAnswer": "ype: Range) 0.679,().699",
-        "explanation": "Official NPTEL accepted answer: ype: Range) 0.679,().699. (Reference: Pages 111 - 120 of course PDF)",
-        "topic": "Recurrent Vision, LSTM Gate Equations & Numerical Gates",
-        "pageRange": "Pages 111 - 120",
-        "blockId": "block_12"
-      },
-      {
-        "id": "b12_q2",
         "question": "-0.226",
         "options": [
           "-0.032",
@@ -4936,13 +4950,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "ype.• Range) 0.767,0.787",
-        "explanation": "Official NPTEL accepted answer: ype.• Range) 0.767,0.787. (Reference: Pages 111 - 120 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: ype.• Range) 0.767,0.787. (Reference: Page 112 of course PDF)",
         "topic": "Recurrent Vision, LSTM Gate Equations & Numerical Gates",
-        "pageRange": "Pages 111 - 120",
+        "pageRange": "Page 112",
         "blockId": "block_12"
       },
       {
-        "id": "b12_q3",
+        "id": "b12_q2",
         "question": "For Questions I",
         "options": [
           "classification.",
@@ -4953,13 +4967,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 10,
         "acceptedAnswer": "4",
-        "explanation": "Official NPTEL accepted answer: 4. (Reference: Pages 111 - 120 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: 4. (Reference: Page 114 of course PDF)",
         "topic": "Recurrent Vision, LSTM Gate Equations & Numerical Gates",
-        "pageRange": "Pages 111 - 120",
+        "pageRange": "Page 114",
         "blockId": "block_12"
       },
       {
-        "id": "b12_q4",
+        "id": "b12_q3",
         "question": "For this question, please see Question 2 in the iPython notebook (.ipynb file)",
         "options": [
           "provided alongside. Complete your implementation under the \"YOUR CODE",
@@ -4970,13 +4984,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 5,
         "acceptedAnswer": "0.2321",
-        "explanation": "Official NPTEL accepted answer: 0.2321. (Reference: Pages 111 - 120 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: 0.2321. (Reference: Page 117 of course PDF)",
         "topic": "Recurrent Vision, LSTM Gate Equations & Numerical Gates",
-        "pageRange": "Pages 111 - 120",
+        "pageRange": "Page 117",
         "blockId": "block_12"
       },
       {
-        "id": "b12_q5",
+        "id": "b12_q4",
         "question": "For this question, please see Question 3 in the iPython notebook (.ipynb file)",
         "options": [
           "provided alongside. Complete your implementation under the \"YOUR CODE",
@@ -4987,13 +5001,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 4,
         "acceptedAnswer": "0.5855",
-        "explanation": "Official NPTEL accepted answer: 0.5855. (Reference: Pages 111 - 120 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: 0.5855. (Reference: Page 118 of course PDF)",
         "topic": "Recurrent Vision, LSTM Gate Equations & Numerical Gates",
-        "pageRange": "Pages 111 - 120",
+        "pageRange": "Page 118",
         "blockId": "block_12"
       },
       {
-        "id": "b12_q6",
+        "id": "b12_q5",
         "question": "For this question, please see Question 4 in the iPython notebook (.ipynb file)",
         "options": [
           "provided alongside. Complete your implementation under the \"YOUR CODE",
@@ -5004,13 +5018,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 4,
         "acceptedAnswer": "Does not saturate",
-        "explanation": "Official NPTEL accepted answer: Does not saturate. (Reference: Pages 111 - 120 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: Does not saturate. (Reference: Page 118 of course PDF)",
         "topic": "Recurrent Vision, LSTM Gate Equations & Numerical Gates",
-        "pageRange": "Pages 111 - 120",
+        "pageRange": "Page 118",
         "blockId": "block_12"
       },
       {
-        "id": "b12_q7",
+        "id": "b12_q6",
         "question": "For this question, please see Question 5 in the iPython notebook (.ipynb file)",
         "options": [
           "provided alongside. Complete your implementation under the \"YOUR CODE",
@@ -5021,13 +5035,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 3,
         "acceptedAnswer": "0.0927",
-        "explanation": "Official NPTEL accepted answer: 0.0927. (Reference: Pages 111 - 120 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: 0.0927. (Reference: Page 118 of course PDF)",
         "topic": "Recurrent Vision, LSTM Gate Equations & Numerical Gates",
-        "pageRange": "Pages 111 - 120",
+        "pageRange": "Page 118",
         "blockId": "block_12"
       },
       {
-        "id": "b12_q8",
+        "id": "b12_q7",
         "question": "For this question, please see Question 6 in the iPython notebook (.ipynb file)",
         "options": [
           "provided alongside. Complete your implementation under the \"YOUR CODE",
@@ -5038,13 +5052,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 3,
         "acceptedAnswer": "97.18%",
-        "explanation": "Official NPTEL accepted answer: 97.18%. (Reference: Pages 111 - 120 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: 97.18%. (Reference: Page 119 of course PDF)",
         "topic": "Recurrent Vision, LSTM Gate Equations & Numerical Gates",
-        "pageRange": "Pages 111 - 120",
+        "pageRange": "Page 119",
         "blockId": "block_12"
       },
       {
-        "id": "b12_q9",
+        "id": "b12_q8",
         "question": "The Frechet Inception Distance (FID)",
         "options": [
           "between N([23],[1001]) and is? (Please refer to the errata below",
@@ -5054,10 +5068,10 @@ window.QUIZ_DATA = [
           "4"
         ],
         "correctIndex": 0,
-        "acceptedAnswer": "between N([23],[1001]) and is? (Please refer to the errata below",
-        "explanation": "Official NPTEL accepted answer: between N([23],[1001]) and is? (Please refer to the errata below. (Reference: Pages 111 - 120 of course PDF)",
+        "acceptedAnswer": "2",
+        "explanation": "Official NPTEL accepted answer: 2. (Reference: Page 120 of course PDF)",
         "topic": "Recurrent Vision, LSTM Gate Equations & Numerical Gates",
-        "pageRange": "Pages 111 - 120",
+        "pageRange": "Page 120",
         "blockId": "block_12"
       }
     ]
@@ -5069,8 +5083,7 @@ window.QUIZ_DATA = [
     "subtitle": "Generative Models, VAEs, Latent Space Arithmetic & SAM",
     "pageRange": "Pages 121 - 130",
     "badge": "Assignment Week 10",
-    "icon": "bi-magic",
-    "totalQuestions": 13,
+    "totalQuestions": 14,
     "questions": [
       {
         "id": "b13_q1",
@@ -5084,9 +5097,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 3,
         "acceptedAnswer": "The output of the decoder/generator in a VAE doesn't always need to be an",
-        "explanation": "Official NPTEL accepted answer: The output of the decoder/generator in a VAE doesn't always need to be an. (Reference: Pages 121 - 130 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: The output of the decoder/generator in a VAE doesn't always need to be an. (Reference: Page 121 of course PDF)",
         "topic": "Generative Models, VAEs, Latent Space Arithmetic & SAM",
-        "pageRange": "Pages 121 - 130",
+        "pageRange": "Page 121",
         "blockId": "block_13"
       },
       {
@@ -5100,9 +5113,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 2,
         "acceptedAnswer": "Learning to generate same instances of training data",
-        "explanation": "Official NPTEL accepted answer: Learning to generate same instances of training data. (Reference: Pages 121 - 130 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: Learning to generate same instances of training data. (Reference: Page 121 of course PDF)",
         "topic": "Generative Models, VAEs, Latent Space Arithmetic & SAM",
-        "pageRange": "Pages 121 - 130",
+        "pageRange": "Page 121",
         "blockId": "block_13"
       },
       {
@@ -5117,9 +5130,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 3,
         "acceptedAnswer": "DETR eliminates the need for region proposals and anchor boxes, simplifying",
-        "explanation": "Official NPTEL accepted answer: DETR eliminates the need for region proposals and anchor boxes, simplifying. (Reference: Pages 121 - 130 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: DETR eliminates the need for region proposals and anchor boxes, simplifying. (Reference: Page 122 of course PDF)",
         "topic": "Generative Models, VAEs, Latent Space Arithmetic & SAM",
-        "pageRange": "Pages 121 - 130",
+        "pageRange": "Page 122",
         "blockId": "block_13"
       },
       {
@@ -5134,9 +5147,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "They lack the inductive biases of convolutions, making them more reliant on",
-        "explanation": "Official NPTEL accepted answer: They lack the inductive biases of convolutions, making them more reliant on. (Reference: Pages 121 - 130 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: They lack the inductive biases of convolutions, making them more reliant on. (Reference: Page 124 of course PDF)",
         "topic": "Generative Models, VAEs, Latent Space Arithmetic & SAM",
-        "pageRange": "Pages 121 - 130",
+        "pageRange": "Page 124",
         "blockId": "block_13"
       },
       {
@@ -5150,9 +5163,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "e generator producing a limited variety of outputs.",
-        "explanation": "Official NPTEL accepted answer: e generator producing a limited variety of outputs.. (Reference: Pages 121 - 130 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: e generator producing a limited variety of outputs.. (Reference: Page 124 of course PDF)",
         "topic": "Generative Models, VAEs, Latent Space Arithmetic & SAM",
-        "pageRange": "Pages 121 - 130",
+        "pageRange": "Page 124",
         "blockId": "block_13"
       },
       {
@@ -5166,9 +5179,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 3,
         "acceptedAnswer": "It captures a distribution of latent variables for data generation.",
-        "explanation": "Official NPTEL accepted answer: It captures a distribution of latent variables for data generation.. (Reference: Pages 121 - 130 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: It captures a distribution of latent variables for data generation.. (Reference: Page 125 of course PDF)",
         "topic": "Generative Models, VAEs, Latent Space Arithmetic & SAM",
-        "pageRange": "Pages 121 - 130",
+        "pageRange": "Page 125",
         "blockId": "block_13"
       },
       {
@@ -5183,9 +5196,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "The generator and discriminator are always trained together in a GAN",
-        "explanation": "Official NPTEL accepted answer: The generator and discriminator are always trained together in a GAN. (Reference: Pages 121 - 130 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: The generator and discriminator are always trained together in a GAN. (Reference: Page 125 of course PDF)",
         "topic": "Generative Models, VAEs, Latent Space Arithmetic & SAM",
-        "pageRange": "Pages 121 - 130",
+        "pageRange": "Page 125",
         "blockId": "block_13"
       },
       {
@@ -5200,9 +5213,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "i) Assigns labels to data;",
-        "explanation": "Official NPTEL accepted answer: i) Assigns labels to data;. (Reference: Pages 121 - 130 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: i) Assigns labels to data;. (Reference: Page 126 of course PDF)",
         "topic": "Generative Models, VAEs, Latent Space Arithmetic & SAM",
-        "pageRange": "Pages 121 - 130",
+        "pageRange": "Page 126",
         "blockId": "block_13"
       },
       {
@@ -5217,9 +5230,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 6,
         "acceptedAnswer": "Regression models use Lp-norm based loss which can cause an averaging",
-        "explanation": "Official NPTEL accepted answer: Regression models use Lp-norm based loss which can cause an averaging. (Reference: Pages 121 - 130 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: Regression models use Lp-norm based loss which can cause an averaging. (Reference: Page 127 of course PDF)",
         "topic": "Generative Models, VAEs, Latent Space Arithmetic & SAM",
-        "pageRange": "Pages 121 - 130",
+        "pageRange": "Page 127",
         "blockId": "block_13"
       },
       {
@@ -5234,9 +5247,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 7,
         "acceptedAnswer": "Number of channels to predict in LAB color space is only two, whereas the",
-        "explanation": "Official NPTEL accepted answer: Number of channels to predict in LAB color space is only two, whereas the. (Reference: Pages 121 - 130 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: Number of channels to predict in LAB color space is only two, whereas the. (Reference: Page 128 of course PDF)",
         "topic": "Generative Models, VAEs, Latent Space Arithmetic & SAM",
-        "pageRange": "Pages 121 - 130",
+        "pageRange": "Page 128",
         "blockId": "block_13"
       },
       {
@@ -5251,9 +5264,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "1) Pix2Pix",
-        "explanation": "Official NPTEL accepted answer: 1) Pix2Pix. (Reference: Pages 121 - 130 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: 1) Pix2Pix. (Reference: Page 129 of course PDF)",
         "topic": "Generative Models, VAEs, Latent Space Arithmetic & SAM",
-        "pageRange": "Pages 121 - 130",
+        "pageRange": "Page 129",
         "blockId": "block_13"
       },
       {
@@ -5268,9 +5281,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 7,
         "acceptedAnswer": "Learned disentangled representations should be dependent on each other",
-        "explanation": "Official NPTEL accepted answer: Learned disentangled representations should be dependent on each other. (Reference: Pages 121 - 130 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: Learned disentangled representations should be dependent on each other. (Reference: Page 129 of course PDF)",
         "topic": "Generative Models, VAEs, Latent Space Arithmetic & SAM",
-        "pageRange": "Pages 121 - 130",
+        "pageRange": "Page 129",
         "blockId": "block_13"
       },
       {
@@ -5285,9 +5298,26 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "Growing the generator and discriminator progressively",
-        "explanation": "Official NPTEL accepted answer: Growing the generator and discriminator progressively. (Reference: Pages 121 - 130 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: Growing the generator and discriminator progressively. (Reference: Page 130 of course PDF)",
         "topic": "Generative Models, VAEs, Latent Space Arithmetic & SAM",
-        "pageRange": "Pages 121 - 130",
+        "pageRange": "Page 130",
+        "blockId": "block_13"
+      },
+      {
+        "id": "b13_q14",
+        "question": "In the context of super-resolution network (SRN), select the false statement:",
+        "options": [
+          "It is easy to create training datapoints as we can down-sample high resolution",
+          "images and task the SRN to generate back the original high resolution images",
+          "form them",
+          "The seminal paper 'Image Super-Resolution Using Deep Convolutional",
+          "Networks' (discussed in the lecture) uses adversarial loss to generate super-"
+        ],
+        "correctIndex": 3,
+        "acceptedAnswer": "The seminal paper 'Image Super-Resolution Using Deep Convolutional",
+        "explanation": "Official NPTEL accepted answer: The seminal paper 'Image Super-Resolution Using Deep Convolutional. (Reference: Page 130 of course PDF)",
+        "topic": "Generative Models, VAEs, Latent Space Arithmetic & SAM",
+        "pageRange": "Page 130",
         "blockId": "block_13"
       }
     ]
@@ -5299,28 +5329,10 @@ window.QUIZ_DATA = [
     "subtitle": "Super-Resolution (SRCNN, SRGAN), CycleGAN & Perceptual Loss",
     "pageRange": "Pages 131 - 140",
     "badge": "Assignment Week 11",
-    "icon": "bi-brush",
-    "totalQuestions": 13,
+    "totalQuestions": 12,
     "questions": [
       {
         "id": "b14_q1",
-        "question": "The seminal paper 'Image Super-Resolution Using Deep Convolutional",
-        "options": [
-          "Networks' (discussed in the lecture) uses adversarial loss to generate super-",
-          "resolution images",
-          "The de-convolutional layers help in the reconstruction of higher resolution",
-          "images from intermediate features",
-          "PSNR and SSIM are common evaluation metrics used to measure the quality of"
-        ],
-        "correctIndex": 0,
-        "acceptedAnswer": "The seminal paper 'Image Super-Resolution Using Deep Convolutional",
-        "explanation": "Official NPTEL accepted answer: The seminal paper 'Image Super-Resolution Using Deep Convolutional. (Reference: Pages 131 - 140 of course PDF)",
-        "topic": "Super-Resolution (SRCNN, SRGAN), CycleGAN & Perceptual Loss",
-        "pageRange": "Pages 131 - 140",
-        "blockId": "block_14"
-      },
-      {
-        "id": "b14_q2",
         "question": "Which of the following is true about perceptual loss:",
         "options": [
           "It compares two images based on their individual pixel values",
@@ -5331,13 +5343,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 3,
         "acceptedAnswer": "It compares two images based on high-level representations",
-        "explanation": "Official NPTEL accepted answer: It compares two images based on high-level representations. (Reference: Pages 131 - 140 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: It compares two images based on high-level representations. (Reference: Page 132 of course PDF)",
         "topic": "Super-Resolution (SRCNN, SRGAN), CycleGAN & Perceptual Loss",
-        "pageRange": "Pages 131 - 140",
+        "pageRange": "Page 132",
         "blockId": "block_14"
       },
       {
-        "id": "b14_q3",
+        "id": "b14_q2",
         "question": "Which of the following is true about U-nets:",
         "options": [
           "A U-Net is a convolutional neural network architecture that was developed",
@@ -5348,13 +5360,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 2,
         "acceptedAnswer": "U-Nets have been found to be very effective for tasks where the output is of",
-        "explanation": "Official NPTEL accepted answer: U-Nets have been found to be very effective for tasks where the output is of. (Reference: Pages 131 - 140 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: U-Nets have been found to be very effective for tasks where the output is of. (Reference: Page 132 of course PDF)",
         "topic": "Super-Resolution (SRCNN, SRGAN), CycleGAN & Perceptual Loss",
-        "pageRange": "Pages 131 - 140",
+        "pageRange": "Page 132",
         "blockId": "block_14"
       },
       {
-        "id": "b14_q4",
+        "id": "b14_q3",
         "question": "For this question, please see Question 2 in the iPython notebook (.ipynb file)",
         "options": [
           "provided alongside. Complete your implementation under the \"YOUR CODE",
@@ -5365,13 +5377,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 4,
         "acceptedAnswer": "0.5",
-        "explanation": "Official NPTEL accepted answer: 0.5. (Reference: Pages 131 - 140 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: 0.5. (Reference: Page 134 of course PDF)",
         "topic": "Super-Resolution (SRCNN, SRGAN), CycleGAN & Perceptual Loss",
-        "pageRange": "Pages 131 - 140",
+        "pageRange": "Page 134",
         "blockId": "block_14"
       },
       {
-        "id": "b14_q5",
+        "id": "b14_q4",
         "question": "For this question, please see Question 4 in the iPython notebook (.ipynb file)",
         "options": [
           "provided alongside. Complete your implementation under the \"YOUR CODE",
@@ -5382,13 +5394,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 5,
         "acceptedAnswer": "10-5",
-        "explanation": "Official NPTEL accepted answer: 10-5. (Reference: Pages 131 - 140 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: 10-5. (Reference: Page 135 of course PDF)",
         "topic": "Super-Resolution (SRCNN, SRGAN), CycleGAN & Perceptual Loss",
-        "pageRange": "Pages 131 - 140",
+        "pageRange": "Page 135",
         "blockId": "block_14"
       },
       {
-        "id": "b14_q6",
+        "id": "b14_q5",
         "question": "For this question, please see Question 5 in the iPython notebook (.ipynb file)",
         "options": [
           "provided alongside. Complete your implementation under the \"YOUR CODE",
@@ -5399,13 +5411,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 2,
         "acceptedAnswer": "-1.5",
-        "explanation": "Official NPTEL accepted answer: -1.5. (Reference: Pages 131 - 140 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: -1.5. (Reference: Page 135 of course PDF)",
         "topic": "Super-Resolution (SRCNN, SRGAN), CycleGAN & Perceptual Loss",
-        "pageRange": "Pages 131 - 140",
+        "pageRange": "Page 135",
         "blockId": "block_14"
       },
       {
-        "id": "b14_q7",
+        "id": "b14_q6",
         "question": "Match the following:",
         "options": [
           "1) Domain adaptation",
@@ -5416,13 +5428,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "1) Domain adaptation",
-        "explanation": "Official NPTEL accepted answer: 1) Domain adaptation. (Reference: Pages 131 - 140 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: 1) Domain adaptation. (Reference: Page 136 of course PDF)",
         "topic": "Super-Resolution (SRCNN, SRGAN), CycleGAN & Perceptual Loss",
-        "pageRange": "Pages 131 - 140",
+        "pageRange": "Page 136",
         "blockId": "block_14"
       },
       {
-        "id": "b14_q8",
+        "id": "b14_q7",
         "question": "Match the following:",
         "options": [
           "1) BYOL",
@@ -5433,13 +5445,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "1) BYOL",
-        "explanation": "Official NPTEL accepted answer: 1) BYOL. (Reference: Pages 131 - 140 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: 1) BYOL. (Reference: Page 137 of course PDF)",
         "topic": "Super-Resolution (SRCNN, SRGAN), CycleGAN & Perceptual Loss",
-        "pageRange": "Pages 131 - 140",
+        "pageRange": "Page 137",
         "blockId": "block_14"
       },
       {
-        "id": "b14_q9",
+        "id": "b14_q8",
         "question": "iii) No negative samples",
         "options": [
           "iv) White-box adversarial attack",
@@ -5450,13 +5462,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 6,
         "acceptedAnswer": "Number of channels to predict in LAB color space is less than RGB color space",
-        "explanation": "Official NPTEL accepted answer: Number of channels to predict in LAB color space is less than RGB color space. (Reference: Pages 131 - 140 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: Number of channels to predict in LAB color space is less than RGB color space. (Reference: Page 137 of course PDF)",
         "topic": "Super-Resolution (SRCNN, SRGAN), CycleGAN & Perceptual Loss",
-        "pageRange": "Pages 131 - 140",
+        "pageRange": "Page 137",
         "blockId": "block_14"
       },
       {
-        "id": "b14_q10",
+        "id": "b14_q9",
         "question": "In the forward process of a diffusion model, the data is incrementally corrupted",
         "options": [
           "by adding noise across T timesteps. Ifthe variance of the noise added at each",
@@ -5467,13 +5479,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 7,
         "acceptedAnswer": ".75",
-        "explanation": "Official NPTEL accepted answer: .75. (Reference: Pages 131 - 140 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: .75. (Reference: Page 138 of course PDF)",
         "topic": "Super-Resolution (SRCNN, SRGAN), CycleGAN & Perceptual Loss",
-        "pageRange": "Pages 131 - 140",
+        "pageRange": "Page 138",
         "blockId": "block_14"
       },
       {
-        "id": "b14_q11",
+        "id": "b14_q10",
         "question": "Consider a reverse process in a diffusion model where the goal is to reconstruct",
         "options": [
           "the original data from the noise. Ifthe model correctly reduces the variance of",
@@ -5484,13 +5496,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 3,
         "acceptedAnswer": "45",
-        "explanation": "Official NPTEL accepted answer: 45. (Reference: Pages 131 - 140 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: 45. (Reference: Page 139 of course PDF)",
         "topic": "Super-Resolution (SRCNN, SRGAN), CycleGAN & Perceptual Loss",
-        "pageRange": "Pages 131 - 140",
+        "pageRange": "Page 139",
         "blockId": "block_14"
       },
       {
-        "id": "b14_q12",
+        "id": "b14_q11",
         "question": "Classifier-free guidance is a technique used in diffusion models to improve sample quality without the explicit use of a classifier. This technique involves",
         "options": [
           "modifying the sampling process based on a control parameter. Ifthe control",
@@ -5501,13 +5513,13 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 4,
         "acceptedAnswer": "It removes all guidance, effectively making the process equivalent to the",
-        "explanation": "Official NPTEL accepted answer: It removes all guidance, effectively making the process equivalent to the. (Reference: Pages 131 - 140 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: It removes all guidance, effectively making the process equivalent to the. (Reference: Page 139 of course PDF)",
         "topic": "Super-Resolution (SRCNN, SRGAN), CycleGAN & Perceptual Loss",
-        "pageRange": "Pages 131 - 140",
+        "pageRange": "Page 139",
         "blockId": "block_14"
       },
       {
-        "id": "b14_q13",
+        "id": "b14_q12",
         "question": "Which of the following are FALSE for self-supervised learning (SSL)",
         "options": [
           "techniques?",
@@ -5516,11 +5528,11 @@ window.QUIZ_DATA = [
           "samples to achieve state-of-the-art results",
           "MoCo maintains the dictionary as a stack of data samples, this enabling use of"
         ],
-        "correctIndex": 0,
-        "acceptedAnswer": "techniques?",
-        "explanation": "Official NPTEL accepted answer: techniques?. (Reference: Pages 131 - 140 of course PDF)",
+        "correctIndex": 4,
+        "acceptedAnswer": "MoCo maintains the dictionary as a stack of data samples, this enabling use of",
+        "explanation": "Official NPTEL accepted answer: MoCo maintains the dictionary as a stack of data samples, this enabling use of. (Reference: Page 140 of course PDF)",
         "topic": "Super-Resolution (SRCNN, SRGAN), CycleGAN & Perceptual Loss",
-        "pageRange": "Pages 131 - 140",
+        "pageRange": "Page 140",
         "blockId": "block_14"
       }
     ]
@@ -5532,7 +5544,6 @@ window.QUIZ_DATA = [
     "subtitle": "Self-Supervised Learning (MoCo, SSL) & Diffusion Models (DDPM)",
     "pageRange": "Pages 141 - 143",
     "badge": "Assignment Week 12",
-    "icon": "bi-broadcast-pin",
     "totalQuestions": 6,
     "questions": [
       {
@@ -5545,9 +5556,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 1,
         "acceptedAnswer": "To remove noise from the image",
-        "explanation": "Official NPTEL accepted answer: To remove noise from the image. (Reference: Pages 141 - 143 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: To remove noise from the image. (Reference: Page 141 of course PDF)",
         "topic": "Self-Supervised Learning (MoCo, SSL) & Diffusion Models (DDPM)",
-        "pageRange": "Pages 141 - 143",
+        "pageRange": "Page 141",
         "blockId": "block_15"
       },
       {
@@ -5560,9 +5571,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "o add noise to the image",
-        "explanation": "Official NPTEL accepted answer: o add noise to the image. (Reference: Pages 141 - 143 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: o add noise to the image. (Reference: Page 141 of course PDF)",
         "topic": "Self-Supervised Learning (MoCo, SSL) & Diffusion Models (DDPM)",
-        "pageRange": "Pages 141 - 143",
+        "pageRange": "Page 141",
         "blockId": "block_15"
       },
       {
@@ -5576,9 +5587,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "A stochastic process that gradually adds noise to an image",
-        "explanation": "Official NPTEL accepted answer: A stochastic process that gradually adds noise to an image. (Reference: Pages 141 - 143 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: A stochastic process that gradually adds noise to an image. (Reference: Page 141 of course PDF)",
         "topic": "Self-Supervised Learning (MoCo, SSL) & Diffusion Models (DDPM)",
-        "pageRange": "Pages 141 - 143",
+        "pageRange": "Page 141",
         "blockId": "block_15"
       },
       {
@@ -5592,9 +5603,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 2,
         "acceptedAnswer": "To learn a joint embedding space for text and images",
-        "explanation": "Official NPTEL accepted answer: To learn a joint embedding space for text and images. (Reference: Pages 141 - 143 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: To learn a joint embedding space for text and images. (Reference: Page 142 of course PDF)",
         "topic": "Self-Supervised Learning (MoCo, SSL) & Diffusion Models (DDPM)",
-        "pageRange": "Pages 141 - 143",
+        "pageRange": "Page 142",
         "blockId": "block_15"
       },
       {
@@ -5608,9 +5619,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 2,
         "acceptedAnswer": "Contrastive learning",
-        "explanation": "Official NPTEL accepted answer: Contrastive learning. (Reference: Pages 141 - 143 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: Contrastive learning. (Reference: Page 142 of course PDF)",
         "topic": "Self-Supervised Learning (MoCo, SSL) & Diffusion Models (DDPM)",
-        "pageRange": "Pages 141 - 143",
+        "pageRange": "Page 142",
         "blockId": "block_15"
       },
       {
@@ -5624,9 +5635,9 @@ window.QUIZ_DATA = [
         ],
         "correctIndex": 0,
         "acceptedAnswer": "Image captioning",
-        "explanation": "Official NPTEL accepted answer: Image captioning. (Reference: Pages 141 - 143 of course PDF)",
+        "explanation": "Official NPTEL accepted answer: Image captioning. (Reference: Page 143 of course PDF)",
         "topic": "Self-Supervised Learning (MoCo, SSL) & Diffusion Models (DDPM)",
-        "pageRange": "Pages 141 - 143",
+        "pageRange": "Page 143",
         "blockId": "block_15"
       }
     ]
