@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NPTEL Deep Learning for Computer Vision - PYQ Quiz Master (All 143 Pages)</title>
+  <meta name="description" content="Interactive 15-Block Quiz Website for NPTEL Deep Learning for Computer Vision (IIT Hyderabad, NOC25-CS93). Complete Previous Year Questions (PYQs) and Assignments for every 10 pages.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Ambient Glow Backgrounds -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+  <div class="ambient-glow glow-3"></div>
+
+  <!-- Main Navigation Bar -->
+  <header class="navbar-header">
+    <div class="nav-container">
+      <div class="brand-group" id="btn-brand-home">
+        <div class="brand-logo">
+          <i class="bi bi-mortarboard-fill"></i>
+        </div>
+        <div class="brand-info">
+          <div class="brand-title">DL4CV <span class="badge-tag">NPTEL PYQ</span></div>
+          <div class="brand-subtitle">IIT Hyderabad • NOC25-CS93 • 12 Weeks</div>
+        </div>
+      </div>
+
+      <div class="nav-actions">
+        <!-- Quick Search Trigger -->
+        <button class="nav-btn" id="btn-open-search" title="Search all 336 questions (Ctrl+K)">
+          <i class="bi bi-search"></i>
+          <span class="desktop-only">Search PYQs</span>
+          <span class="kbd-badge desktop-only">Ctrl+K</span>
+        </button>
+
+        <!-- Sound FX Toggle -->
+        <button class="nav-btn icon-only" id="btn-sound-toggle" title="Toggle Sound Feedback">
+          <i class="bi bi-volume-up-fill" id="sound-icon"></i>
+        </button>
+
+        <!-- Theme Toggle -->
+        <button class="nav-btn icon-only" id="btn-theme-toggle" title="Toggle Dark/Light Mode">
+          <i class="bi bi-sun-fill" id="theme-icon"></i>
+        </button>
+
+        <!-- Reset Progress Data -->
+        <button class="nav-btn icon-only" id="btn-reset-stats" title="Reset All Quiz Scores">
+          <i class="bi bi-arrow-counterclockwise"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="main-content" id="app-root">
+
+    <!-- ==================== VIEW 1: HOME / DASHBOARD ==================== -->
+    <section class="view-section active" id="view-dashboard">
+      <!-- Hero Banner -->
+      <div class="hero-banner">
+        <div class="hero-badge">
+          <i class="bi bi-file-earmark-pdf-fill"></i> Comprehensive 143-Page Reference PYQ Collection
+        </div>
+        <h1 class="hero-title">
+          Master Deep Learning for <span class="gradient-text">Computer Vision</span>
+        </h1>
+        <p class="hero-desc">
+          Structured 10-page block quizzes extracted directly from the official NPTEL PYQ &amp; Assignment repository. 
+          Practice chapter by chapter with verified keys, in-depth mathematical derivations, and instant feedback.
+        </p>
+
+        <!-- Dashboard Stats Grid -->
+        <div class="stats-row">
+          <div class="stat-card">
+            <div class="stat-icon cyan"><i class="bi bi-collection-play-fill"></i></div>
+            <div class="stat-details">
+              <span class="stat-value" id="stat-total-quizzes">15</span>
+              <span class="stat-label">Quiz Blocks (10 pgs/quiz)</span>
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-icon purple"><i class="bi bi-patch-question-fill"></i></div>
+            <div class="stat-details">
+              <span class="stat-value" id="stat-total-questions">336</span>
+              <span class="stat-label">Verified PYQ Questions</span>
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-icon emerald"><i class="bi bi-check2-circle"></i></div>
+            <div class="stat-details">
+              <span class="stat-value" id="stat-completed-blocks">0 / 15</span>
+              <span class="stat-label">Blocks Completed</span>
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-icon amber"><i class="bi bi-award-fill"></i></div>
+            <div class="stat-details">
+              <span class="stat-value" id="stat-avg-score">0%</span>
+              <span class="stat-label">Average Accuracy</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Filter / Action Bar -->
+        <div class="dashboard-controls">
+          <div class="tabs-group">
+            <button class="filter-tab active" data-filter="all">All 15 Blocks</button>
+            <button class="filter-tab" data-filter="theory">Theory &amp; Concepts (P1-50)</button>
+            <button class="filter-tab" data-filter="assignments">Weekly Assignments (P51-143)</button>
+          </div>
+
+          <!-- Mega Mock Button -->
+          <button class="btn btn-primary glow-btn" id="btn-mega-mock">
+            <i class="bi bi-lightning-fill"></i> Launch All-Blocks Mock Test (30 Qs)
+          </button>
+        </div>
+      </div>
+
+      <!-- Blocks Grid -->
+      <div class="blocks-grid-container">
+        <h2 class="section-title">
+          <i class="bi bi-grid-fill"></i> Select a 10-Page Quiz Block
+        </h2>
+        <div class="blocks-grid" id="blocks-grid">
+          <!-- Dynamically populated by app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== VIEW 2: QUIZ PLAYER ==================== -->
+    <section class="view-section" id="view-player">
+      <!-- Player Header -->
+      <div class="player-topbar">
+        <div class="player-info">
+          <button class="btn-back" id="btn-exit-quiz" title="Back to Dashboard">
+            <i class="bi bi-arrow-left"></i>
+          </button>
+          <div>
+            <div class="player-block-title" id="player-block-title">Block 1: Pages 1 - 10</div>
+            <div class="player-block-subtitle" id="player-block-subtitle">CNN Fundamentals &amp; Activations</div>
+          </div>
+        </div>
+
+        <div class="player-controls-right">
+          <!-- Timer Display (visible in exam mode) -->
+          <div class="timer-badge" id="player-timer-badge">
+            <i class="bi bi-stopwatch"></i>
+            <span id="player-timer-text">15:00</span>
+          </div>
+
+          <!-- Mode indicator badge -->
+          <span class="mode-badge" id="player-mode-badge">Practice Mode</span>
+
+          <!-- Bookmark button -->
+          <button class="btn-action-icon" id="btn-flag-question" title="Flag for Review">
+            <i class="bi bi-flag" id="flag-icon"></i>
+          </button>
+
+          <!-- Drawer Toggle -->
+          <button class="btn-action-icon" id="btn-toggle-palette" title="Question Palette">
+            <i class="bi bi-grid-3x3-gap-fill"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Progress Bar -->
+      <div class="quiz-progress-track">
+        <div class="quiz-progress-fill" id="quiz-progress-fill" style="width: 5%;"></div>
+      </div>
+
+      <!-- Question Card Layout -->
+      <div class="player-layout">
+        <div class="question-container">
+          <div class="question-header-meta">
+            <span class="q-number-pill" id="q-number-indicator">Question 1 of 45</span>
+            <span class="q-source-pill" id="q-source-indicator"><i class="bi bi-book"></i> Ref: Pages 1 - 10</span>
+            <span class="q-status-pill" id="q-status-indicator">Unanswered</span>
+          </div>
+
+          <div class="question-prompt" id="question-prompt">
+            <!-- Question Text will go here -->
+          </div>
+
+          <!-- Options List -->
+          <div class="options-list" id="options-list">
+            <!-- Dynamic Options -->
+          </div>
+
+          <!-- Explanation Box (Appears in Practice mode or post-submit) -->
+          <div class="explanation-box" id="explanation-box">
+            <div class="explanation-header">
+              <i class="bi bi-lightbulb-fill"></i>
+              <span>Official NPTEL Solution &amp; Explanation</span>
+            </div>
+            <div class="explanation-body" id="explanation-text">
+              <!-- Explanation text -->
+            </div>
+          </div>
+
+          <!-- Bottom Action Buttons -->
+          <div class="player-footer">
+            <button class="btn btn-secondary" id="btn-prev-q">
+              <i class="bi bi-chevron-left"></i> Previous
+            </button>
+
+            <div class="footer-center-actions">
+              <button class="btn btn-outline" id="btn-clear-selection">
+                <i class="bi bi-eraser"></i> Clear Choice
+              </button>
+            </div>
+
+            <div class="footer-right-actions">
+              <button class="btn btn-secondary" id="btn-next-q">
+                Next <i class="bi bi-chevron-right"></i>
+              </button>
+              <button class="btn btn-success glow-btn" id="btn-submit-quiz">
+                <i class="bi bi-send-check"></i> Submit Quiz
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Question Palette Sidebar / Drawer -->
+        <aside class="palette-sidebar" id="palette-sidebar">
+          <div class="palette-header">
+            <h3><i class="bi bi-grid-3x3-gap"></i> Question Navigator</h3>
+            <button class="btn-close-palette" id="btn-close-palette"><i class="bi bi-x-lg"></i></button>
+          </div>
+
+          <div class="palette-legend">
+            <div class="legend-item"><span class="dot current"></span> Current</div>
+            <div class="legend-item"><span class="dot answered"></span> Answered</div>
+            <div class="legend-item"><span class="dot flagged"></span> Flagged</div>
+            <div class="legend-item"><span class="dot unanswered"></span> Pending</div>
+          </div>
+
+          <div class="palette-grid" id="palette-grid">
+            <!-- Dynamic Palette Buttons -->
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ==================== VIEW 3: SCORECARD / RESULT ==================== -->
+    <section class="view-section" id="view-result">
+      <div class="result-wrapper">
+        <div class="result-card">
+          <div class="result-badge-top" id="result-grade-badge">
+            <i class="bi bi-trophy-fill"></i> Performance Analysis
+          </div>
+          
+          <h2 class="result-block-title" id="result-block-title">Block 1: Pages 1 - 10</h2>
+          <p class="result-block-subtitle" id="result-block-subtitle">Quiz Completed Successfully</p>
+
+          <!-- Score Ring Graphic -->
+          <div class="score-radial-container">
+            <div class="score-circle">
+              <span class="score-percentage" id="result-percentage">88%</span>
+              <span class="score-fraction" id="result-fraction">40 / 45 Correct</span>
+            </div>
+          </div>
+
+          <div class="result-verdict" id="result-verdict">
+            🌟 Elite Performance! Excellent command of the concepts.
+          </div>
+
+          <!-- Result Breakdown Stats -->
+          <div class="result-stats-row">
+            <div class="res-stat-box green">
+              <i class="bi bi-check-circle-fill"></i>
+              <span class="res-num" id="res-correct-count">40</span>
+              <span class="res-label">Correct</span>
+            </div>
+
+            <div class="res-stat-box red">
+              <i class="bi bi-x-circle-fill"></i>
+              <span class="res-num" id="res-wrong-count">5</span>
+              <span class="res-label">Incorrect</span>
+            </div>
+
+            <div class="res-stat-box gray">
+              <i class="bi bi-dash-circle-fill"></i>
+              <span class="res-num" id="res-skipped-count">0</span>
+              <span class="res-label">Skipped</span>
+            </div>
+
+            <div class="res-stat-box purple">
+              <i class="bi bi-stopwatch"></i>
+              <span class="res-num" id="res-time-taken">4m 20s</span>
+              <span class="res-label">Time Taken</span>
+            </div>
+          </div>
+
+          <!-- Result Actions -->
+          <div class="result-actions">
+            <button class="btn btn-primary" id="btn-review-quiz">
+              <i class="bi bi-journal-text"></i> Review Questions &amp; Solutions
+            </button>
+            <button class="btn btn-warning" id="btn-retry-mistakes">
+              <i class="bi bi-arrow-repeat"></i> Retry Incorrect Only
+            </button>
+            <button class="btn btn-secondary" id="btn-retake-quiz">
+              <i class="bi bi-arrow-clockwise"></i> Re-take Full Block
+            </button>
+            <button class="btn btn-outline" id="btn-return-home">
+              <i class="bi bi-house-door"></i> Back to Blocks Catalog
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== SEARCH MODAL / QUESTION BANK ==================== -->
+  <div class="modal-backdrop" id="search-modal">
+    <div class="search-modal-box">
+      <div class="search-modal-header">
+        <div class="search-input-wrapper">
+          <i class="bi bi-search"></i>
+          <input type="text" id="global-search-input" placeholder="Search across all 336 questions (e.g., Grad-CAM, mAP, DDPM, ResNet, VAE, Loss)..." autocomplete="off">
+          <button class="btn-clear-search" id="btn-clear-search"><i class="bi bi-x-lg"></i></button>
+        </div>
+        <button class="btn-close-modal" id="btn-close-search-modal"><i class="bi bi-x-lg"></i></button>
+      </div>
+
+      <div class="search-filters">
+        <span class="filter-chip active" data-search-filter="all">All Blocks</span>
+        <span class="filter-chip" data-search-filter="b1_5">Blocks 1-5 (Theory)</span>
+        <span class="filter-chip" data-search-filter="b6_15">Blocks 6-15 (Assignments)</span>
+        <span class="search-count" id="search-results-count">Type keyword to search 336 questions</span>
+      </div>
+
+      <div class="search-results-list" id="search-results-list">
+        <!-- Results populated dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Scripts -->
+  <script src="quiz_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

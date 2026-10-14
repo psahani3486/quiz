@@ -1,0 +1,17 @@
+# Large temporary files and images
+pdf_pages/
+*.png
+*.webp
+*.log
+__pycache__/
+
+# Scratch scripts
+block_*.txt
+extracted_text.json
+test_*.py
+test_*.ps1
+render_pages.py
+build_full_database.py
+batch_ocr.ps1
+deploy_pkg/
+*.pdf
