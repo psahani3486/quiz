@@ -117,10 +117,15 @@
             <button class="filter-tab" data-filter="assignments">Weekly Assignments (P51-143)</button>
           </div>
 
-          <!-- Mega Mock Button -->
-          <button class="btn btn-primary glow-btn" id="btn-mega-mock">
-            <i class="bi bi-lightning-fill"></i> Launch All-Blocks Mock Test (30 Qs)
-          </button>
+          <div class="dashboard-right-actions" style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+            <button class="btn btn-secondary" id="btn-toggle-shuffle-mode" title="Shuffle question order when starting any quiz">
+              <i class="bi bi-shuffle"></i> <span id="shuffle-mode-label">Shuffle: OFF</span>
+            </button>
+            <!-- Mega Mock Button -->
+            <button class="btn btn-primary glow-btn" id="btn-mega-mock">
+              <i class="bi bi-lightning-fill"></i> Launch All-Blocks Mock Test (30 Qs)
+            </button>
+          </div>
         </div>
       </div>
 
@@ -162,6 +167,11 @@
           <!-- Bookmark button -->
           <button class="btn-action-icon" id="btn-flag-question" title="Flag for Review">
             <i class="bi bi-flag" id="flag-icon"></i>
+          </button>
+
+          <!-- Shuffle button -->
+          <button class="btn-action-icon" id="btn-shuffle-questions" title="Shuffle Questions (Re-order randomly)">
+            <i class="bi bi-shuffle"></i>
           </button>
 
           <!-- Drawer Toggle -->
@@ -309,6 +319,9 @@
             </button>
             <button class="btn btn-secondary" id="btn-retake-quiz">
               <i class="bi bi-arrow-clockwise"></i> Re-take Full Block
+            </button>
+            <button class="btn btn-secondary" id="btn-retake-shuffled">
+              <i class="bi bi-shuffle"></i> Re-take Shuffled
             </button>
             <button class="btn btn-outline" id="btn-return-home">
               <i class="bi bi-house-door"></i> Back to Blocks Catalog

@@ -23,10 +23,38 @@
     theme: localStorage.getItem('dl4cv_theme') || 'dark',
     userProgress: JSON.parse(localStorage.getItem('dl4cv_progress') || '{}'),
     isReviewMode: false,
-    activeQuestionsList: []
+    activeQuestionsList: [],
+    shuffleEnabled: localStorage.getItem('dl4cv_shuffle') === 'true'
   };
 
   const getQuizData = () => window.QUIZ_DATA || (typeof QUIZ_DATA !== 'undefined' ? QUIZ_DATA : []);
+
+  // Fisher-Yates shuffle algorithm
+  function shuffleArray(arr) {
+    const result = [...arr];
+    for (let i = result.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [result[i], result[j]] = [result[j], result[i]];
+    }
+    return result;
+  }
+
+  function shuffleQuestionsAndOptions(questions) {
+    return shuffleArray(questions).map(q => {
+      // Map options to objects tracking correct answer
+      const mapped = q.options.map((opt, idx) => ({
+        text: opt,
+        isCorrect: idx === q.correctIndex
+      }));
+      const shuffledMapped = shuffleArray(mapped);
+      const newCorrectIndex = shuffledMapped.findIndex(m => m.isCorrect);
+      return {
+        ...q,
+        options: shuffledMapped.map(m => m.text),
+        correctIndex: newCorrectIndex
+      };
+    });
+  }
 
   // ==========================================
   // AUDIO SYNTHESIZER (Web Audio API)
@@ -116,6 +144,8 @@
     blocksGrid: document.getElementById('blocks-grid'),
     filterTabs: document.querySelectorAll('.filter-tab'),
     btnMegaMock: document.getElementById('btn-mega-mock'),
+    btnToggleShuffleMode: document.getElementById('btn-toggle-shuffle-mode'),
+    shuffleModeLabel: document.getElementById('shuffle-mode-label'),
 
     // Player Elements
     btnExitQuiz: document.getElementById('btn-exit-quiz'),
@@ -126,6 +156,7 @@
     playerModeBadge: document.getElementById('player-mode-badge'),
     btnFlagQuestion: document.getElementById('btn-flag-question'),
     flagIcon: document.getElementById('flag-icon'),
+    btnShuffleQuestions: document.getElementById('btn-shuffle-questions'),
     btnTogglePalette: document.getElementById('btn-toggle-palette'),
     btnClosePalette: document.getElementById('btn-close-palette'),
     paletteSidebar: document.getElementById('palette-sidebar'),
@@ -160,6 +191,7 @@
     btnReviewQuiz: document.getElementById('btn-review-quiz'),
     btnRetryMistakes: document.getElementById('btn-retry-mistakes'),
     btnRetakeQuiz: document.getElementById('btn-retake-quiz'),
+    btnRetakeShuffled: document.getElementById('btn-retake-shuffled'),
     btnReturnHome: document.getElementById('btn-return-home'),
 
     // Search Modal
@@ -181,6 +213,7 @@
   function init() {
     applyTheme(state.theme);
     updateSoundUI();
+    updateShuffleUI();
     renderDashboard();
     setupEventListeners();
   }
@@ -343,14 +376,14 @@
   // ==========================================
   // QUIZ ENGINE & PLAYBACK
   // ==========================================
-  function startQuiz(blockId, mode = 'practice', customQuestions = null) {
+  function startQuiz(blockId, mode = 'practice', customQuestions = null, forceShuffle = false) {
     const data = getQuizData();
     let block;
     if (blockId === 'mega_mock') {
       // Pick 2 questions from each of the 15 blocks (30 questions total)
       const mockQs = [];
       data.forEach(b => {
-        const shuffled = [...b.questions].sort(() => 0.5 - Math.random());
+        const shuffled = shuffleQuestionsAndOptions(b.questions);
         mockQs.push(...shuffled.slice(0, 2));
       });
       block = {
@@ -370,7 +403,13 @@
     state.currentBlock = block;
     state.quizMode = mode;
     state.isReviewMode = false;
-    state.activeQuestionsList = customQuestions || block.questions;
+
+    let baseQuestions = customQuestions || [...block.questions];
+    if (state.shuffleEnabled || forceShuffle) {
+      baseQuestions = shuffleQuestionsAndOptions(baseQuestions);
+    }
+
+    state.activeQuestionsList = baseQuestions;
     state.currentQuestionIndex = 0;
     state.userAnswers = {};
     state.flaggedQuestions.clear();
@@ -682,6 +721,52 @@
   }
 
   // ==========================================
+  // SHUFFLE MANAGEMENT
+  // ==========================================
+  function triggerDynamicShuffle() {
+    if (state.isReviewMode) {
+      showToast('Cannot shuffle in review mode', 'warn');
+      return;
+    }
+    if (elements.btnShuffleQuestions) {
+      elements.btnShuffleQuestions.classList.add('spinning');
+      setTimeout(() => elements.btnShuffleQuestions.classList.remove('spinning'), 500);
+    }
+
+    state.activeQuestionsList = shuffleQuestionsAndOptions(state.activeQuestionsList);
+    state.currentQuestionIndex = 0;
+    state.userAnswers = {};
+    renderQuestion(0);
+    renderPalette();
+    playSound('click');
+    showToast('Questions and options shuffled! 🔀', 'success');
+  }
+
+  function toggleDashboardShuffle() {
+    state.shuffleEnabled = !state.shuffleEnabled;
+    localStorage.setItem('dl4cv_shuffle', state.shuffleEnabled ? 'true' : 'false');
+    updateShuffleUI();
+    showToast(state.shuffleEnabled ? 'Automatic shuffle enabled for all quizzes! 🔀' : 'Automatic shuffle disabled', 'info');
+  }
+
+  function updateShuffleUI() {
+    if (elements.shuffleModeLabel) {
+      elements.shuffleModeLabel.textContent = state.shuffleEnabled ? 'Shuffle: ON' : 'Shuffle: OFF';
+    }
+    if (elements.btnToggleShuffleMode) {
+      if (state.shuffleEnabled) {
+        elements.btnToggleShuffleMode.classList.add('btn-primary');
+        elements.btnToggleShuffleMode.classList.remove('btn-secondary');
+        elements.btnToggleShuffleMode.style.boxShadow = '0 0 15px rgba(99, 102, 241, 0.4)';
+      } else {
+        elements.btnToggleShuffleMode.classList.remove('btn-primary');
+        elements.btnToggleShuffleMode.classList.add('btn-secondary');
+        elements.btnToggleShuffleMode.style.boxShadow = 'none';
+      }
+    }
+  }
+
+  // ==========================================
   // SEARCH / QUESTION BANK
   // ==========================================
   function openSearchModal() {
@@ -866,6 +951,19 @@
       }
     });
 
+    // Shuffle Controls
+    if (elements.btnToggleShuffleMode) {
+      elements.btnToggleShuffleMode.addEventListener('click', toggleDashboardShuffle);
+    }
+    if (elements.btnShuffleQuestions) {
+      elements.btnShuffleQuestions.addEventListener('click', triggerDynamicShuffle);
+    }
+    if (elements.btnRetakeShuffled) {
+      elements.btnRetakeShuffled.addEventListener('click', () => {
+        startQuiz(state.currentBlock.id, state.quizMode, null, true);
+      });
+    }
+
     // Result Actions
     elements.btnReviewQuiz.addEventListener('click', enterReviewMode);
     elements.btnRetryMistakes.addEventListener('click', retryMistakesOnly);
@@ -903,7 +1001,7 @@
       }
     });
 
-    // Keyboard Shortcuts (Ctrl+K, Numbers 1-4, N, P, F)
+    // Keyboard Shortcuts (Ctrl+K, Numbers 1-4, N, P, F, S)
     window.addEventListener('keydown', (e) => {
       if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
         e.preventDefault();
@@ -944,6 +1042,8 @@
           }
         } else if (e.key.toLowerCase() === 'f') {
           toggleFlagCurrentQuestion();
+        } else if (e.key.toLowerCase() === 's') {
+          triggerDynamicShuffle();
         }
       }
     });
